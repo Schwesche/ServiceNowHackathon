@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>1e9677b2dbdc2300a6f0a0f2ca9619d7</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_271560_campusnow_studiengang">
+    <x_271560_campusnow_studiengang action="INSERT_OR_UPDATE">
+        <sys_created_by>roehlc</sys_created_by>
+        <sys_created_on>2018-09-06 11:52:33</sys_created_on>
+        <sys_id>1e9677b2dbdc2300a6f0a0f2ca9619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>roehlc</sys_updated_by>
+        <sys_updated_on>2018-09-06 11:52:33</sys_updated_on>
+        <u_abkuerzung>INF mit Praxis</u_abkuerzung>
+        <u_abschluss>1</u_abschluss>
+        <u_fachbereich>5</u_fachbereich>
+        <u_name>Informatik mit Praxissemester</u_name>
+    </x_271560_campusnow_studiengang>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>roehlc</sys_created_by>
+        <sys_created_on>2018-09-06 11:52:50</sys_created_on>
+        <sys_id>aaa63f72dbdc2300a6f0a0f2ca9619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Informatik mit Praxissemester</sys_name>
+        <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
+        <sys_update_name>sys_metadata_link_aaa63f72dbdc2300a6f0a0f2ca9619af</sys_update_name>
+        <sys_updated_by>roehlc</sys_updated_by>
+        <sys_updated_on>2018-09-06 11:52:50</sys_updated_on>
+        <tablename>x_271560_campusnow_studiengang</tablename>
+    </sys_metadata_link>
+</record_update>
