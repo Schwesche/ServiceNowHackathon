@@ -15,13 +15,17 @@
                 <element label="Warten auf Genehmigung" value="1"/>
             </choice>
         </element>
+        <element label="Student" max_length="32" name="u_student" reference="sys_user" type="reference"/>
         <index name="index">
-            <element name="u_kolloquium"/>
+            <element name="u_student"/>
         </index>
         <index name="index2">
-            <element name="u_arbeit"/>
+            <element name="u_kolloquium"/>
         </index>
         <index name="index3">
+            <element name="u_arbeit"/>
+        </index>
+        <index name="index4">
             <element name="u_pruefer"/>
         </index>
     </element>
