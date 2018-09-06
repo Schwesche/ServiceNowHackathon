@@ -5,22 +5,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_271560_campusnow_student</name>
+        <name>x_271560_campusnow_studiengang</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-06 07:34:50</sys_created_on>
-        <sys_id>e83db7f6dbdc2300a6f0a0f2ca961995</sys_id>
+        <sys_created_by>roehlc</sys_created_by>
+        <sys_created_on>2018-09-06 09:13:53</sys_created_on>
+        <sys_id>a53348434f542300434a4f00a310c72a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_271560_campusnow_student</sys_name>
+        <sys_name>x_271560_campusnow_studiengang</sys_name>
         <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
         <sys_policy/>
         <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
-        <sys_update_name>ua_table_licensing_config_e83db7f6dbdc2300a6f0a0f2ca961995</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-06 07:34:50</sys_updated_on>
+        <sys_update_name>ua_table_licensing_config_a53348434f542300434a4f00a310c72a</sys_update_name>
+        <sys_updated_by>roehlc</sys_updated_by>
+        <sys_updated_on>2018-09-06 09:13:53</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

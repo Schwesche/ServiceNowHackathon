@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sp_portal">
     <sp_portal action="INSERT_OR_UPDATE">
-        <css_variables>$brand-primary: #42cac1;
+        <css_variables>$brand-primary: #23cfd9;
 $body-bg: #fff;
 $state-success-text: #5cb85c;
 $sp-homepage-bg: #fff;
@@ -41,14 +41,14 @@ $text-muted: #979797;
         <sys_created_by>alexw</sys_created_by>
         <sys_created_on>2018-09-06 08:20:36</sys_created_on>
         <sys_id>b8d5c33e4f502300434a4f00a310c74f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>campusnow</sys_name>
         <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
         <sys_policy/>
         <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
         <sys_update_name>sp_portal_b8d5c33e4f502300434a4f00a310c74f</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-06 11:26:01</sys_updated_on>
+        <sys_updated_by>alexw</sys_updated_by>
+        <sys_updated_on>2018-09-06 12:44:36</sys_updated_on>
         <theme/>
         <title>campusnow</title>
         <url_suffix>campusnow</url_suffix>
