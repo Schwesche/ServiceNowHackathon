@@ -54,7 +54,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>roehlc</sys_created_by>
         <sys_created_on>2018-09-06 08:56:27</sys_created_on>
-        <sys_id>d066a4c7dbd4230020759235ca9619ff</sys_id>
+        <sys_id>4139e44bdb906300a6f0a0f2ca961911</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Erstpruefer</sys_name>
         <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
@@ -62,7 +62,7 @@
         <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
         <sys_update_name>sys_dictionary_x_271560_campusnow_leistung_u_erstpruefer</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:21:20</sys_updated_on>
+        <sys_updated_on>2018-09-06 15:33:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
