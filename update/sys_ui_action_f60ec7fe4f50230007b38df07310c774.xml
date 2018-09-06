@@ -5,7 +5,7 @@
         <active>true</active>
         <client>false</client>
         <comments/>
-        <condition>!(current.u_note.nil()) &amp;&amp; leistung.u_erstpruefer.sys_id == current.u_user.sys_id</condition>
+        <condition>javascript:new condition_utils().note_checken();</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -39,7 +39,7 @@ else{
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f60ec7fe4f50230007b38df07310c774</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Note eintragen</sys_name>
         <sys_overrides/>
         <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
@@ -47,7 +47,7 @@ else{
         <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
         <sys_update_name>sys_ui_action_f60ec7fe4f50230007b38df07310c774</sys_update_name>
         <sys_updated_by>melinakriska</sys_updated_by>
-        <sys_updated_on>2018-09-06 09:52:36</sys_updated_on>
+        <sys_updated_on>2018-09-06 12:54:48</sys_updated_on>
         <table>x_271560_campusnow_ergebnis</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

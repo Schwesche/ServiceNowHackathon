@@ -13,13 +13,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-06 07:34:50</sys_created_on>
-        <sys_id>393348434f542300434a4f00a310c75f</sys_id>
+        <sys_id>7e96004b4f14230007b38df07310c772</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_271560_campusnow_student</sys_name>
         <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
         <sys_policy/>
         <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
-        <sys_update_name>ua_table_licensing_config_393348434f542300434a4f00a310c75f</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_7e96004b4f14230007b38df07310c772</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-06 07:34:50</sys_updated_on>
     </ua_table_licensing_config>
