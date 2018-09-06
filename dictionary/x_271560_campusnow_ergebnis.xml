@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Ergebnis" max_length="40" name="x_271560_campusnow_ergebnis" type="collection">
+        <element label="Leistung" max_length="32" name="u_leistung" read_only="true" reference="x_271560_campusnow_leistung" type="reference"/>
         <element label="Note" max_length="40" name="u_note" type="float"/>
-        <element choice="3" default="1" label="State" max_length="40" name="u_state" type="choice">
+        <element choice="3" default="1" label="State" max_length="40" name="u_state" read_only="true" type="choice">
             <choice>
                 <element label="angemeldet" value="1"/>
                 <element label="bestanden" value="2"/>
                 <element label="nicht bestanden" value="3"/>
             </choice>
         </element>
-        <element default="javascript:gs.getUserID();" dynamic_default_value="bdcb83a85f220100a9ad2572f2b4773d" label="User" max_length="32" name="u_user" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="User" max_length="32" name="u_user" read_only="true" reference="sys_user" type="reference"/>
         <index name="index">
+            <element name="u_leistung"/>
+        </index>
+        <index name="index2">
             <element name="u_user"/>
         </index>
     </element>

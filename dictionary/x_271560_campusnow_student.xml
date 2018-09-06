@@ -9,5 +9,8 @@
         <index name="index">
             <element name="u_user"/>
         </index>
+        <index name="index2">
+            <element name="u_studiengang"/>
+        </index>
     </element>
 </database>

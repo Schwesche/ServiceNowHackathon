@@ -2,58 +2,72 @@
 <record_update>
     <sys_ui_section caption="" section_id="d3354f764f50230007b38df07310c7f3" sys_domain="global" table="x_271560_campusnow_ergebnis" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_user</element>
+            <element>u_leistung</element>
             <position>0</position>
             <sys_created_by>melinakriska</sys_created_by>
-            <sys_created_on>2018-09-06 08:21:40</sys_created_on>
-            <sys_id>1d560ff64f50230007b38df07310c713</sys_id>
+            <sys_created_on>2018-09-06 09:27:18</sys_created_on>
+            <sys_id>ba55dbb64f90230007b38df07310c70b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271560_campusnow_ergebnis" sys_domain="global" view="Default view">d3354f764f50230007b38df07310c7f3</sys_ui_section>
             <sys_updated_by>melinakriska</sys_updated_by>
-            <sys_updated_on>2018-09-06 08:21:40</sys_updated_on>
+            <sys_updated_on>2018-09-06 09:27:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_user</element>
+            <position>1</position>
+            <sys_created_by>melinakriska</sys_created_by>
+            <sys_created_on>2018-09-06 09:27:18</sys_created_on>
+            <sys_id>3e55dbb64f90230007b38df07310c70b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_271560_campusnow_ergebnis" sys_domain="global" view="Default view">d3354f764f50230007b38df07310c7f3</sys_ui_section>
+            <sys_updated_by>melinakriska</sys_updated_by>
+            <sys_updated_on>2018-09-06 09:27:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>melinakriska</sys_created_by>
-            <sys_created_on>2018-09-06 08:21:40</sys_created_on>
-            <sys_id>9d560ff64f50230007b38df07310c713</sys_id>
+            <sys_created_on>2018-09-06 09:27:18</sys_created_on>
+            <sys_id>be55dbb64f90230007b38df07310c70b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271560_campusnow_ergebnis" sys_domain="global" view="Default view">d3354f764f50230007b38df07310c7f3</sys_ui_section>
             <sys_updated_by>melinakriska</sys_updated_by>
-            <sys_updated_on>2018-09-06 08:21:40</sys_updated_on>
+            <sys_updated_on>2018-09-06 09:27:18</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_state</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>melinakriska</sys_created_by>
-            <sys_created_on>2018-09-06 08:21:40</sys_created_on>
-            <sys_id>11560ff64f50230007b38df07310c714</sys_id>
+            <sys_created_on>2018-09-06 09:27:18</sys_created_on>
+            <sys_id>3255dbb64f90230007b38df07310c70c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271560_campusnow_ergebnis" sys_domain="global" view="Default view">d3354f764f50230007b38df07310c7f3</sys_ui_section>
             <sys_updated_by>melinakriska</sys_updated_by>
-            <sys_updated_on>2018-09-06 08:21:40</sys_updated_on>
+            <sys_updated_on>2018-09-06 09:27:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_note</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>melinakriska</sys_created_by>
-            <sys_created_on>2018-09-06 08:21:40</sys_created_on>
-            <sys_id>91560ff64f50230007b38df07310c714</sys_id>
+            <sys_created_on>2018-09-06 09:27:18</sys_created_on>
+            <sys_id>b255dbb64f90230007b38df07310c70c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271560_campusnow_ergebnis" sys_domain="global" view="Default view">d3354f764f50230007b38df07310c7f3</sys_ui_section>
             <sys_updated_by>melinakriska</sys_updated_by>
-            <sys_updated_on>2018-09-06 08:21:40</sys_updated_on>
+            <sys_updated_on>2018-09-06 09:27:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
