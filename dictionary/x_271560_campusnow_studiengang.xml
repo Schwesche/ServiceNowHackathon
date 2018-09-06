@@ -9,6 +9,7 @@
                 <element label="Master of Engineering" value="3"/>
             </choice>
         </element>
+        <element default="5" label="Fachbereich" max_length="40" name="u_fachbereich" type="integer"/>
         <element label="Name" mandatory="true" max_length="255" name="u_name" type="string_full_utf8"/>
     </element>
 </database>
