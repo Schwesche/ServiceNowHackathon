@@ -2,9 +2,11 @@
 <database>
     <element label="Studiengang" max_length="40" name="x_271560_campusnow_studiengang" type="collection">
         <element label="Abkuerzung" mandatory="true" max_length="255" name="u_abkuerzung" type="string_full_utf8"/>
-        <element choice="1" default="1" label="Abschluss" max_length="40" name="u_abschluss" type="choice">
+        <element choice="3" default="1" label="Abschluss" max_length="40" name="u_abschluss" type="choice">
             <choice>
+                <element label="Bachelor of Engineering" value="2"/>
                 <element label="Bachelor of Science" value="1"/>
+                <element label="Master of Engineering" value="3"/>
             </choice>
         </element>
         <element label="Name" mandatory="true" max_length="255" name="u_name" type="string_full_utf8"/>

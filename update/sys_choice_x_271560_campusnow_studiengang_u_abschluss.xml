@@ -20,6 +20,44 @@
             <sys_updated_on>2018-09-06 09:38:33</sys_updated_on>
             <value>1</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_abschluss</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bachelor of Engineering</label>
+            <language>en</language>
+            <name>x_271560_campusnow_studiengang</name>
+            <sequence/>
+            <sys_created_by>roehlc</sys_created_by>
+            <sys_created_on>2018-09-06 09:44:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e299776db5c2300a6f0a0f2ca96198b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>roehlc</sys_updated_by>
+            <sys_updated_on>2018-09-06 09:44:18</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_abschluss</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Master of Engineering</label>
+            <language>en</language>
+            <name>x_271560_campusnow_studiengang</name>
+            <sequence/>
+            <sys_created_by>roehlc</sys_created_by>
+            <sys_created_on>2018-09-06 09:45:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae695776db5c2300a6f0a0f2ca961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>roehlc</sys_updated_by>
+            <sys_updated_on>2018-09-06 09:45:03</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>u_abschluss</element>
             <name>x_271560_campusnow_studiengang</name>
