@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="Copy of Data table with Filter">fcc0b7fe4fd02300434a4f00a310c781</child>
+        <cloned>2018-09-06 11:27:03</cloned>
+        <last_validated>2018-09-06 11:27:03</last_validated>
+        <parent display_value="Data table with Filter">67a072d59361220064f572edb67ffb85</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category/&gt;&lt;client_script&gt;&lt;![CDATA[function ($scope, $location, spUtil, amb, $http) {
+	var c = this;
+	/*
+	 * options:
+	 * hide_footer (bool) = true to remove the data table footer contents
+	 * hide_header (bool) = true to remove the data table header contents
+	 * show_new (bool) = true to show the "New" record button
+	 * show_keywords (bool) = true to show the keyword search field
+	 * table (string) = the table name to query
+	 * filter (string) = the encoded query
+	 * o (string) = the order by column
+	 * d (string) = The order by direction: asc or desc
+	 * p (int) = the page to jump to
+	 * fields (string) = comma seperated list of fields that become the list columns
+	 * view (string) = the default view to load for columns, overrides fields
+	*/
+
+	$scope.exportTypes = [{label:'PDF', value: 'PDF'}, {label:'Excel', value:'EXCEL'}, {label:'CSV', value:'CSV'}];
+	var keys = ['table', 'filter', 'p', 'o', 'd'];
+
+	var eventNames = {
+		click: 'data_table.click',
+		setFilter: 'data_table.setFilter',
+		setKeywords: 'data_table.setKeywords'
+	};
+
+	$scope.go = function(table, item) {
+		var parms = {};
+		parms.table = table;
+		parms.sys_id = item.sys_id;
+		parms.record = item;
+		$scope.ignoreLocationChange = true;
+		for (var x in c.data.list) {
+			c.data.list[x].selected = false;
+		}
+		item.selected = true;
+		$scope.$emit(eventNames.click, parms);
+	};
+
+	$scope.newRecord = function(){
+		var parms = {
+			id: 'form',
+			table: $scope.data.table,
+			sys_id: '-1'
+		};
+		if ($scope.data.filter != '')
+			parms.query = $scope.data.filter;
+
+		$location.search(parms);
+	};
+
+	function recoverStateFromUrl() {
+		$scope.data.fields = [];
+		var s = $location.search();
+		for (var x in keys) {
+			if (s[keys[x]]) {
+				$scope.data[keys[x]] = s[keys[x]];
+			}
+		}
+		$scope.server.update().then(function(data) {
+			if (s.sys_id) {
+				for (var x in data.list) {
+					if (data.list[x].sys_id == s.sys_id) {
+						$scope.go(s.table, data.list[x]);
+					}
+				}
+			}
+		});
+	}
+	
+	if ($scope.options.fromUrl) {		
+			$scope.$on('$locationChangeSuccess', function(e) {
+			if ($scope.ignoreLocationChange){
+				$scope.ignoreLocationChange = false;
+				return;
+			}
+
+			// Helps to recover state when using the browser's back button
+			recoverStateFromUrl();
+		});		
+	}
+
+	
+	$scope.getNumber = function(num) {
+		return new Array(num);
+	}
+
+	$scope.mathMin = function(v1,v2) {
+		return Math.min(v1,v2);
+	}
+
+	function getData(updateUrl) {
+		var f = $scope.data;
+		spUtil.update($scope).then(function(data) {
+			f.view = data.view;
+			if ($scope.options.fromUrl &amp;&amp; updateUrl)				
+				setPermalink(f.table, f.filter, f.o, f.d, f.p);
+
+			if ($scope.options.show_breadcrumbs &amp;&amp; data.filterBreadcrumbs)
+				$scope.$broadcast('widget-filter-breadcrumbs.setBreadcrumbs', data.filterBreadcrumbs.data);
+
+			initRecordWatcher(f.table, f.filter);
+		});
+	}
+
+	function setPermalink(table, filter, orderBy, orderDirection, page){
+		$scope.ignoreLocationChange = true;
+		var search = $location.search();
+		angular.extend(search, {
+			spa: 1,
+			table: table,
+			filter: filter,
+			p: page,
+			o: orderBy,
+			d: orderDirection
+		});
+		$location.search(search);
+	}
+
+	var watcher;
+	function initRecordWatcher(table, filter){
+		if (watcher)
+			watcher.unsubscribe();
+
+		if (table &amp;&amp; filter) {
+			var watcherChannel = amb.getChannelRW(table, filter);
+			amb.connect();
+			watcher = watcherChannel.subscribe(function() {
+				spUtil.update($scope)
+			});
+		}
+	}
+
+	$scope.setPageNum = function(num) {
+		$scope.data.p = num;
+		getData(true);
+	}
+
+	$scope.setOrderBy = function(field) {
+		var d = "asc";
+		if ($scope.data.o == field) {
+			if ($scope.data.d == "asc")
+				d = "desc";
+			else
+				d = "asc";
+		}
+		$scope.data.o = field;
+		$scope.data.d = d;
+		$scope.setSearch(true);
+	}
+
+	$scope.setSearch = function(updateUrl) {
+		$scope.data.p = 1;
+		getData(updateUrl);
+	}
+
+	$scope.$on(eventNames.setFilter, function(e, newFilter){
+		$scope.data.filter = newFilter;
+		$scope.setSearch(false);
+	});
+
+	$scope.$on(eventNames.setKeywords, function(e, keywords){
+		$scope.data.keywords = keywords;
+		$scope.setSearch(false);
+	});
+	
+	$scope.$on('pps:snfilter_updated', filterModified);
+	$scope.$on('widget-filter-breadcrumbs.queryModified', filterModified);
+	
+	function filterModified(e, newFilter) {
+		$scope.data.filter = newFilter;
+		$scope.setSearch(true);
+	}
+
+	$scope.rowsWerePruned = function() {
+		if (!$scope.data.list)
+			return;
+		
+		$scope.rowsPruned = $scope.mathMin($scope.data.window_end,$scope.data.row_count) - $scope.data.window_start - $scope.data.list.length;
+		return $scope.rowsPruned &gt; 0;
+	}
+
+	$scope.showFilter = function() {
+		return !$scope.data.list.length &amp;&amp; !$scope.data.num_pages &amp;&amp; !$scope.data.invalid_table &amp;&amp; !$scope.loadingData;
+	}
+	
+	c.appendQuery = function(query){
+		if ($scope.data.filter.length &gt; 1)
+			$scope.data.filter += '^';
+		$scope.data.filter += query;
+			$scope.setSearch();
+		
+	}
+
+	// Makes Widget Async
+	var title = $scope.data.title;
+	if ($scope.options.use_instance_title == 'true')
+		title = $scope.options.title;
+	$scope.data = $scope.options;
+	$scope.loadingData = true;
+	$scope.server.update().then(function() {
+		$scope.loadingData = false;
+		$scope.data.title = title;
+		initRecordWatcher($scope.data.table, $scope.data.filter);
+	});
+	
+	function parseQuery(table, queryString){
+		return $http.post('/api/now/sp/parsequery/' + table, queryString).then(function(response){
+				return response.data.result;
+		});
+	}
+	
+	c.createQueryTerm = function(table, field, sys_id, operator){
+		return $http.get('/api/now/sp/getInOutQueryTerm', {
+			params: {
+				table: table,
+				sys_id: sys_id,
+				field: field,
+				operator: operator
+			}
+		}).then(function(response){
+			if (response &amp;&amp; response.data &amp;&amp; response.data.result)
+				return response.data.result.parts;
+		});
+	}
+	
+	c.showMatching = function(field, newTerm) {
+		var queryString = $scope.data.filter;
+		var eq = "";
+		parseQuery($scope.data.table, queryString).then(function(oldTerms) {
+			for(var i=0; i&lt;oldTerms.length; i++){
+				var term = oldTerms[i];
+				if (isSameField(newTerm, term))
+					continue;
+				
+				if (eq.length)
+					eq += '^';
+				
+				eq += getEncodedTerm(term);
+			}
+			if (eq.length)
+					eq += '^';
+			eq += getEncodedTerm(newTerm);
+			
+			setFilterAndSearch(eq);
+		});
+	};
+	
+	c.filterOut = function(field, newTerm) {
+		var eq = $scope.data.filter;
+		if (eq.length)
+					eq += '^';
+		
+		eq += getEncodedTerm(newTerm);
+		setFilterAndSearch(eq);
+	};
+
+	function setFilterAndSearch(eq) {
+		$scope.data.filter = eq;
+		$scope.$emit('pps:snfilter_updated', eq);
+		$scope.setSearch();
+	}
+	
+	function isSameField(t1, t2) {
+		if ('left' in t1 &amp;&amp; 'left' in t2)
+			return t1.left.field === t2.left.field;
+		else if ('left' in t1)
+			return t1.left.field === t2.field;
+		else if ('left' in t2)
+			return t1.field === t2.left.field;
+		return t1.field === t2.field;
+	}
+		
+	function getEncodedTerm(term) {
+		var eq;
+		if (term.left) {
+			eq = getEncodedTerm(term.left);
+			eq += '^OR';
+			eq += getEncodedTerm(term.right);
+		} else {
+			eq = term.field;
+			eq += term.operator;
+			eq += term.value;
+		}
+		return eq;
+	}
+	
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.panel-heading {&amp;#13;
+  padding-left: 8px;&amp;#13;
+}&amp;#13;
+&amp;#13;
+thead {&amp;#13;
+  border-bottom: 1px solid #ddd;&amp;#13;
+}&amp;#13;
+&amp;#13;
+table {&amp;#13;
+  margin-bottom: 0;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.table &amp;gt; thead &amp;gt; tr &amp;gt; th {&amp;#13;
+  border: 1px solid #ddd;&amp;#13;
+  cursor: pointer;&amp;#13;
+  vertical-align: middle;&amp;#13;
+  &amp;#13;
+  &amp;amp;:first-child {&amp;#13;
+    border-left: none;&amp;#13;
+  }&amp;#13;
+  &amp;#13;
+  &amp;amp;:last-child {&amp;#13;
+    border-right: none;&amp;#13;
+  }&amp;#13;
+}&amp;#13;
+&amp;#13;
+th i {&amp;#13;
+  display: inline-block;&amp;#13;
+  margin-left: 5px;&amp;#13;
+  color: #A0A0A0;&amp;#13;
+}&amp;#13;
+&amp;#13;
+th .disabled{&amp;#13;
+  color:#ddd;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.th-title {&amp;#13;
+  display: inline-block;&amp;#13;
+  color: #428bca;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.panel-body {&amp;#13;
+  overflow: auto;&amp;#13;
+  padding: 0px;&amp;#13;
+}&amp;#13;
+&amp;#13;
+&amp;#13;
+.selected {&amp;#13;
+  color: #fff;&amp;#13;
+  background-color: #909090;&amp;#13;
+  border-color: 1px solid #fff;&amp;#13;
+}&amp;#13;
+&amp;#13;
+tbody tr:last-child {&amp;#13;
+  border-bottom: none;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.pruned-msg {&amp;#13;
+  padding-bottom: 10px; &amp;#13;
+  padding-left: 4px; &amp;#13;
+  text-align: center;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.pruned-msg-filter-pad {&amp;#13;
+  padding-top:8px; &amp;#13;
+}&amp;#13;
+&amp;#13;
+.filter-breadcrumbs {&amp;#13;
+  border-bottom: 1px solid #ddd;&amp;#13;
+  padding: 3px 8px 3px 8px;&amp;#13;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;pps-data-table&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function(scope, element, attrs, ctrl){
+	var $ul, $contextMenu;
+	element.on('contextmenu', function(e){
+		var rowScope = angular.element(e.target).scope();
+		var field, item, fieldVal;
+
+		// Context Menu for tbody
+		if (angular.isDefined(rowScope.field) &amp;&amp; angular.isDefined(rowScope.item)){
+			e.preventDefault();
+			field = rowScope.field;
+			item = rowScope.item;
+			fieldVal = item[field].value;
+			
+			var items = [
+				['${Show Matching}', function(){
+					ctrl.createQueryTerm(scope.data.table, field, item.sys_id, '=').then(function(term){
+						ctrl.showMatching(field, term);
+					});
+				}],
+				['${Filter Out}', function(){
+					ctrl.createQueryTerm(scope.data.table, field, item.sys_id, '!=').then(function(term){
+						ctrl.filterOut(field, term);
+					});
+				}]
+			];
+
+			renderContextMenu(items);
+			setContextMenuPosition(e);
+		}
+	});
+
+	function renderContextMenu(items){
+		var scrollHeight = $('body').get(0).scrollHeight;
+		$contextMenu = angular.element('&lt;div&gt;', {'class': 'dropdown clearfix context-dropdown open'});
+
+		$contextMenu.on('click', function (e) {
+			if ($(e.target).hasClass('dropdown')) {
+				_clearContextMenus(event);
+			}
+		});
+		$contextMenu.on('contextmenu', function (event) {
+			event.preventDefault();
+			_clearContextMenus(event);
+		});
+
+		$contextMenu.css({
+			position: 'absolute',
+			top: 0,
+			height: scrollHeight,
+			left: 0,
+			right: 0,
+			zIndex: 9999
+		});
+
+		$('body').append($contextMenu);
+
+		$ul = angular.element('&lt;ul&gt;', {
+			'class': 'dropdown-menu',
+			'role': 'menu'
+		});
+		renderItems();
+		$contextMenu.append($ul);
+
+		function renderItems(){
+			angular.forEach(items, function (item) {
+				var $li = angular.element('&lt;li&gt;');
+
+				if (item === null) {
+					$li.addClass('divider');
+				} else {
+					var $a = angular.element('&lt;a&gt;');
+					$a.attr({tabindex: '-1', href:'#'});
+					$a.text(item[0]);
+					$li.append($a);
+					$li.on('click', function (e) {
+						e.preventDefault();
+						scope.$apply(function () {
+							_clearContextMenus(e);
+							item[1].call(item, item);
+						});
+					});
+				}
+
+				$ul.append($li);
+			});
+		}
+	}
+
+	function _clearContextMenus(event){
+		if (!event){
+			return;
+		}
+
+		angular.element(event.currentTarget).removeClass('context');
+
+		var els = angular.element(".context-dropdown");
+		angular.forEach(els, function(el){
+			angular.element(el).remove();
+		});
+	}
+
+	var contextMenuItemHeight = 0;
+	function setContextMenuPosition(event){
+		if (contextMenuItemHeight === 0)
+			contextMenuItemHeight = $ul.children(0).height();
+
+		// Why not just call .width() and .height() on the container? Because those calculations cause browsers to reflow
+		// that can cause IE10 to take 200ms to render a context menu.
+		var cmWidth = 150;
+		var cmHeight = contextMenuItemHeight * $ul.children().length;
+		var startX = event.pageX + cmWidth &gt;= window.innerWidth ? event.pageX - cmWidth : event.pageX;
+		var startY = event.pageY + cmHeight &gt;= window.innerHeight ? event.pageY - cmHeight : event.pageY;
+
+		$ul.css({
+			display: 'block',
+			position: 'absolute',
+			left: startX,
+			top: startY,
+			'min-width': cmWidth
+		});
+	}
+}]]&gt;&lt;/link&gt;&lt;name&gt;Data table with Filter&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+	if (!input) // asynch load list
+		return;
+
+	data.title = options.title || input.title;
+
+	/*
+	 * data.table = the table
+	 * data.p = the current page starting at 1
+	 * data.o = the order by column
+	 * data.d = the order by direction
+	 * data.keywords = the keyword search term
+	 * data.list = the table data as an array
+	 * data.invalid_table = true if table is invalid or if data was not succesfully fetched
+	 * data.table_label = the table's display name. e.g. Incident
+	 * data.table_plural = the table's plural display name. e.g. Incidents
+	 * data.fields = a comma delimited list of field names to show in the data table
+	 * data.column_labels = a map of field name -&gt; display name
+	 * data.window_size = the number of rows to show
+	 * data.filter = the encoded query
+	 */
+	// copy to data[name] from input[name] || option[name]
+	optCopy(['table', 'p', 'o', 'd', 'filter', 'fields', 'keywords', 'view']);
+	optCopy(['relationship_id', 'apply_to', 'apply_to_sys_id']);
+	if (!data.table) {
+		data.invalid_table = true;
+		data.table_label = "";
+		return;
+	}
+
+	if (!data.fields) {
+		if (data.view)
+			data.fields = $sp.getListColumns(data.table, data.view);
+		else
+			data.fields = $sp.getListColumns(data.table);
+	}
+
+	data.view = data.view || 'mobile';
+	data.table = data.table || $sp.getValue('table');
+	data.filter = data.filter || $sp.getValue('filter');
+	data.keywords = data.keywords || $sp.getValue('keywords');
+	data.p = data.p || $sp.getValue('p') || 1;
+	data.p = parseInt(data.p);
+	data.o = data.o || $sp.getValue('o') || $sp.getValue('order_by');
+	data.d = data.d || $sp.getValue('d') || $sp.getValue('order_direction');
+	data.window_size = data.window_size || $sp.getValue('maximum_entries') || 20;
+	data.page_index = data.p - 1;
+	data.show_new = data.show_new || options.show_new;
+
+	var gr = new GlideRecordSecure(data.table);
+	if (!gr.isValid()) {
+		data.invalid_table = true;
+		data.table_label = data.table;
+		return;
+	}
+
+  data.canCreate = gr.canCreate();
+	data.table_label = gr.getLabel();
+	data.table_plural = gr.getPlural();
+	if (data.filter)
+		gr.addEncodedQuery(data.filter);
+
+	if (data.keywords){
+		gr.addQuery('123TEXTQUERY321', data.keywords);
+		data.keywords = null;
+	}
+
+	data.filter = gr.getEncodedQuery();
+
+	if (data.relationship_id) {
+		var rel = GlideRelationship.get(data.relationship_id);
+		var target = new GlideRecord(data.table);
+		var applyTo = new GlideRecord(data.apply_to);
+		applyTo.get("sys_id", data.apply_to_sys_id);
+		rel.queryWith(applyTo, target); // put the relationship query into target
+		gr.addEncodedQuery(target.getEncodedQuery()); // get the query the relationship made for us
+	}
+
+	if (data.o){
+		if (data.d == "asc")
+			gr.orderBy(data.o);
+		else
+			gr.orderByDesc(data.o);
+	}
+
+	data.window_start = data.page_index * data.window_size;
+	data.window_end = (data.page_index + 1) * data.window_size;
+	gr.chooseWindow(data.window_start, data.window_end);
+	gr._query();
+
+	data.row_count = gr.getRowCount();
+	data.num_pages = Math.ceil(data.row_count / data.window_size);
+	data.column_labels = {};
+	data.fields_array = data.fields.split(',');
+	
+	// use GlideRecord to get field labels vs. GlideRecordSecure
+	var grForLabels = new GlideRecord(data.table);
+	for (var i in data.fields_array) {
+		var field = data.fields_array[i];
+		var ge = grForLabels.getElement(field);
+		if (ge == null)
+			continue;
+
+		data.column_labels[field] = ge.getLabel();
+	}
+
+	data.list = [];
+	while (gr._next()) {
+		var record = {};
+		$sp.getRecordElements(record, gr, data.fields);
+		record.sys_id = gr.getValue('sys_id');
+		data.list.push(record);
+	}
+
+	var widgetOptions = {
+		title: gs.getMessage('Set Filter'),
+		filterOptions : {
+			table: data.table,
+			config: {
+				sets: true,
+				dotWalking: true,
+				saveFilter: false,
+				loadFilter: false,
+				sortFilter: false,
+				runFilter: false,
+				closeFilter: false,
+				clearFilter: false,
+				outputType : "encoded_query",
+				encodedQuery: data.filter
+			}
+		}
+	};
+	data.filterWidget = $sp.getWidget("pps-filter", widgetOptions);
+
+	// copy to data from input or options
+	function optCopy(names) {
+		names.forEach(function(name) {
+			data[name] = input[name] || options[name];
+		})
+	}
+
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-08-29 09:33:23&lt;/sys_created_on&gt;&lt;sys_id&gt;67a072d59361220064f572edb67ffb85&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;Data table with Filter&lt;/sys_name&gt;&lt;sys_package display_value="Project Portfolio Suite Portal Commons" source="com.snc.pps_portal_common"&gt;c130080e4f502300434a4f00a310c77e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_67a072d59361220064f572edb67ffb85&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2016-09-07 07:14:26&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+  &lt;div class="panel panel-{{options.color}} b"&gt;
+    &lt;div class="panel-heading form-inline" ng-hide="options.hide_header"&gt;
+      &lt;span class="dropdown m-r-xs"&gt;
+        &lt;button id="optionsMenu" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&gt;
+          &lt;span class="glyphicon glyphicon-menu-hamburger"&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;ul class="dropdown-menu" aria-labelledby="optionsMenu"&gt;
+          &lt;li ng-repeat="t in ::exportTypes"&gt;
+            &lt;a ng-href="/{{data.table}}_list.do?{{::t.value}}&amp;sysparm_query={{data.filter}}&amp;sysparm_view={{data.view}}" target="_new"&gt;${Export as} {{::t.label}}&lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/span&gt;
+      &lt;span class="panel-title" role="heading" aria-level="2"&gt;&lt;i ng-if="options.glyph" class="fa fa-{{options.glyph}} m-r"&gt;&lt;/i&gt;{{data.title || data.table_plural}}&lt;/span&gt;
+      &lt;button name="new" type="button" class="btn btn-primary btn-sm m-l-xs" ng-click="newRecord()" ng-if="options.show_new &amp;&amp; data.canCreate"&gt;${New}&lt;/button&gt;
+      &lt;div class="pull-right" ng-if="options.show_keywords"&gt;
+		&lt;form ng-submit="setSearch(true)"&gt;
+        &lt;div class="input-group"&gt;
+          &lt;input type="text" name="datatable-search" ng-model="data.keywords" class="form-control" placeholder="${Keyword Search}"&gt;
+          &lt;span class="input-group-btn"&gt;
+            &lt;button name="search" class="btn btn-default" type="submit"&gt;&lt;span class="glyphicon glyphicon-search"&gt;&lt;/span&gt;&lt;/button&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+        &lt;/form&gt;
+      &lt;/div&gt;
+      &lt;div class="clearfix"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- body --&gt;
+    &lt;div class="panel-body"&gt;
+      &lt;div ng-if="options.show_breadcrumbs" class="filter-breadcrumbs"&gt;
+		&lt;sp-widget widget="data.filterWidget"&gt; &lt;/sp-widget&gt;
+      &lt;/div&gt;
+      &lt;div class="alert alert-info" ng-if="!data.list.length &amp;&amp; !data.num_pages &amp;&amp; !data.invalid_table &amp;&amp; !loadingData"&gt;
+        ${No records in {{data.table_label}} &lt;span ng-if="data.filter"&gt;using that filter&lt;/span&gt;}
+      &lt;/div&gt;
+      &lt;div class="alert alert-info" ng-if="loadingData"&gt;
+          &lt;fa name="spinner" spin="true"&gt;&lt;/fa&gt; ${Loading data}...
+       &lt;/div&gt;
+      &lt;table class="table table-striped table-responsive" ng-if="data.list.length"&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th ng-repeat="field in data.fields_array track by $index" ng-click="setOrderBy(field)"&gt;
+              &lt;div class="th-title"&gt;{{data.column_labels[field]}}&lt;/div&gt;
+              &lt;i class="fa" ng-if="field == data.o" ng-class="{'asc': 'fa-chevron-up', 'desc': 'fa-chevron-down'}[data.d]"&gt;&lt;/i&gt;
+            &lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+          &lt;tr ng-repeat="item in data.list track by item.sys_id"&gt;
+            &lt;td class="pointer" ng-class="{selected: item.selected}" ng-click="go(data.table, item)" ng-repeat="field in data.fields_array" data-field="{{field}}" data-th="{{data.column_labels[field]}}"&gt;{{item[field].display_value}}&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+      &lt;div ng-class="{'pruned-msg-filter-pad': (!options.show_breadcrumbs || !data.filter) &amp;&amp; !data.list.length}" class="pruned-msg" ng-if="rowsWerePruned()"&gt;
+        &lt;span ng-if="rowsPruned == 1"&gt;${{{rowsPruned}} row removed by security constraints}&lt;/span&gt;
+        &lt;span ng-if="rowsPruned &gt; 1"&gt;${{{rowsPruned}} rows removed by security constraints}&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- footer --&gt;
+    &lt;div class="panel-footer" ng-hide="options.hide_footer" ng-if="data.row_count"&gt;
+      &lt;div class="btn-toolbar m-r pull-left"&gt;
+        &lt;div class="btn-group"&gt;
+          &lt;a ng-disabled="data.p == 1" href="javascript:void(0)" ng-click="setPageNum(data.p - 1)" class="btn btn-default"&gt;&lt;i class="fa fa-chevron-left"&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div ng-if="data.num_pages &gt; 1 &amp;&amp; data.num_pages &lt; 20" class="btn-group"&gt;
+          &lt;a ng-repeat="i in getNumber(data.num_pages) track by $index" ng-click="setPageNum($index + 1)" href="javascript:void(0)" ng-class="{active: ($index + 1) == data.p}" type="button" class="btn btn-default"&gt;{{$index + 1}}&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="btn-group"&gt;
+          &lt;a ng-disabled="data.p == data.num_pages" href="javascript:void(0)" ng-click="setPageNum(data.p + 1)" class="btn btn-default"&gt;&lt;i class="fa fa-chevron-right"&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class="m-t-xs panel-title"&gt;${Rows {{data.window_start + 1}} - {{ mathMin(data.window_end,data.row_count) }} of {{data.row_count}}}&lt;/div&gt;
+
+      &lt;span class="clearfix"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-06 11:27:03</sys_created_on>
+        <sys_id>09c0b7fe4fd02300434a4f00a310c785</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fcc0b7fe4fd02300434a4f00a310c781</sys_name>
+        <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_09c0b7fe4fd02300434a4f00a310c785</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-06 11:27:03</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>
