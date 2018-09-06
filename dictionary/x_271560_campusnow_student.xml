@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Student" max_length="40" name="x_271560_campusnow_student" type="collection"/>
+</database>
