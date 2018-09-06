@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>u_arbeit</display_field>
+        <field_list/>
+        <filter table="x_271560_campusnow_bachelorarbeit">u_student.sys_id=javascript:gs.getUserID()^EQ<item endquery="false" field="u_student.sys_id" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserID()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>1</maximum_entries>
+        <order>2</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">ed968b3a4f502300434a4f00a310c785</sp_column>
+        <sp_page display_value="form">ed5f8ec347730200ba13a5554ee49046</sp_page>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-06 19:06:49</sys_created_on>
+        <sys_id>abf9dd0f4f582300434a4f00a310c702</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
+        <sys_update_name>sp_instance_vlist_abf9dd0f4f582300434a4f00a310c702</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-06 19:29:05</sys_updated_on>
+        <table>x_271560_campusnow_bachelorarbeit</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "",
+		"displayValue": ""
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "ed5f8ec347730200ba13a5554ee49046",
+		"displayValue": "form"
+	},
+	"hide_footer": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=abf9dd0f4f582300434a4f00a310c702"/>
+</record_update>

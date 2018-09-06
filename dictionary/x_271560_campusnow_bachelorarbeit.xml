@@ -15,7 +15,7 @@
                 <element label="Warten auf Genehmigung" value="1"/>
             </choice>
         </element>
-        <element label="Student" max_length="32" name="u_student" reference="sys_user" type="reference"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Student" max_length="32" name="u_student" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <index name="index">
             <element name="u_student"/>
         </index>
