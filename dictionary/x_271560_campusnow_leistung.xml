@@ -4,7 +4,7 @@
         <element label="Credits" mandatory="true" max_length="40" name="u_credits" type="integer"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Erstpruefer" mandatory="true" max_length="32" name="u_erstpruefer" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element label="Studiengang" max_length="4000" name="u_studiengang" reference="x_271560_campusnow_studiengang" type="glide_list"/>
-        <element label="Titel" mandatory="true" max_length="255" name="u_titel" type="string_full_utf8"/>
+        <element display="true" label="Titel" mandatory="true" max_length="255" name="u_titel" type="string_full_utf8"/>
         <element choice="3" default="1" label="Typ" mandatory="true" max_length="40" name="u_typ" type="choice">
             <choice>
                 <element label="Bachelor  Arbeit" value="2"/>
