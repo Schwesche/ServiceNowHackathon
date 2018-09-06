@@ -2,7 +2,7 @@
 <record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="x_271560_campusnow.studiengang_user" name="x_271560_campusnow.studiengang_user">c64257fadb1c2300a6f0a0f2ca96193a</role>
+        <role/>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2018-09-06 09:53:48</sys_created_on>
