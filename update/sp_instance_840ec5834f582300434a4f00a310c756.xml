@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">3a07cf3e4f502300434a4f00a310c7fd</sp_column>
+        <sp_widget display_value="CAB Workbench-Form Widget">3e9d0792db1022004d27b31be0b8f5af</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-06 18:14:24</sys_created_on>
+        <sys_id>840ec5834f582300434a4f00a310c756</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
+        <sys_update_name>sp_instance_840ec5834f582300434a4f00a310c756</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-06 18:14:59</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=840ec5834f582300434a4f00a310c756"/>
+</record_update>

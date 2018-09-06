@@ -54,7 +54,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-06 08:51:51</sys_created_on>
-        <sys_id>05949d434f18230007b38df07310c7d0</sys_id>
+        <sys_id>7b55190b4f582300434a4f00a310c710</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Matrikel Nummer</sys_name>
         <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
@@ -62,7 +62,7 @@
         <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
         <sys_update_name>sys_dictionary_x_271560_campusnow_student_u_matrikel_nummer</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-09-06 18:43:14</sys_updated_on>
+        <sys_updated_on>2018-09-06 18:46:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

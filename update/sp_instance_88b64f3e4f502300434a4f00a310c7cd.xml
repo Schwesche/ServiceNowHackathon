@@ -3,7 +3,7 @@
     <sp_instance action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
-        <color>default</color>
+        <color>primary</color>
         <css/>
         <glyph/>
         <id/>
@@ -17,20 +17,20 @@
         <sys_created_by>alexw</sys_created_by>
         <sys_created_on>2018-09-06 08:23:13</sys_created_on>
         <sys_id>88b64f3e4f502300434a4f00a310c7cd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
         <sys_policy/>
         <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
         <sys_update_name>sp_instance_88b64f3e4f502300434a4f00a310c7cd</sys_update_name>
-        <sys_updated_by>alexw</sys_updated_by>
-        <sys_updated_on>2018-09-06 08:23:42</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-06 18:34:01</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters><![CDATA[{
 	"href": {
-		"value": "",
-		"displayValue": ""
+		"value": "campusnow?id=campusnow_ba_anmelden",
+		"displayValue": "campusnow?id=campusnow_ba_anmelden"
 	},
 	"button_text": {
 		"value": "Bachelorarbeit anmelden",
