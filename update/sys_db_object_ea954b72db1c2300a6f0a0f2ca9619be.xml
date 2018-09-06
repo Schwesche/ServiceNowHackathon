@@ -24,16 +24,16 @@
         <sys_created_by>roehlc</sys_created_by>
         <sys_created_on>2018-09-06 08:21:58</sys_created_on>
         <sys_id>ea954b72db1c2300a6f0a0f2ca9619be</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Leistung</sys_name>
         <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
         <sys_policy/>
         <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
         <sys_update_name>sys_db_object_ea954b72db1c2300a6f0a0f2ca9619be</sys_update_name>
-        <sys_updated_by>roehlc</sys_updated_by>
-        <sys_updated_on>2018-09-06 08:22:07</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-06 11:12:29</sys_updated_on>
         <update_access>false</update_access>
-        <user_role/>
+        <user_role display_value="x_271560_campusnow.pruefungsamt" name="x_271560_campusnow.pruefungsamt">a7f347badb10230020759235ca96191c</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>
