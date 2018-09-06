@@ -54,7 +54,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>roehlc</sys_created_by>
         <sys_created_on>2018-09-06 09:38:10</sys_created_on>
-        <sys_id>6696004b4f14230007b38df07310c732</sys_id>
+        <sys_id>84ca0087db106300a6f0a0f2ca9619f8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Abschluss</sys_name>
         <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
@@ -62,7 +62,7 @@
         <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
         <sys_update_name>sys_dictionary_x_271560_campusnow_studiengang_u_abschluss</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-09-06 13:02:33</sys_updated_on>
+        <sys_updated_on>2018-09-06 13:20:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
