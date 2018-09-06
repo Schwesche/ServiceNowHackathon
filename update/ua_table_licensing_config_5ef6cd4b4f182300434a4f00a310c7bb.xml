@@ -13,13 +13,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>melinakriska</sys_created_by>
         <sys_created_on>2018-09-06 15:55:46</sys_created_on>
-        <sys_id>49d0f803db18230020759235ca961926</sys_id>
+        <sys_id>5ef6cd4b4f182300434a4f00a310c7bb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_271560_campusnow_bachelorarbeit</sys_name>
         <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
         <sys_policy/>
         <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
-        <sys_update_name>ua_table_licensing_config_49d0f803db18230020759235ca961926</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_5ef6cd4b4f182300434a4f00a310c7bb</sys_update_name>
         <sys_updated_by>melinakriska</sys_updated_by>
         <sys_updated_on>2018-09-06 15:55:46</sys_updated_on>
     </ua_table_licensing_config>
