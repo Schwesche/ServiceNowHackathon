@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Student" max_length="40" name="x_271560_campusnow_student" type="collection"/>
+    <element label="Student" max_length="40" name="x_271560_campusnow_student" type="collection">
+        <element label="Matrikel Nummer" mandatory="true" max_length="32" name="u_matrikel_nummer" type="string"/>
+        <element choice="3" label="Studiengang" max_length="40" name="u_studiengang" type="choice">
+            <choice>
+                <element label="ET" value="3"/>
+                <element label="INF" value="1"/>
+                <element label="MCD" value="4"/>
+                <element label="WI" value="2"/>
+            </choice>
+        </element>
+        <element label="User" max_length="32" name="u_user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_user"/>
+        </index>
+    </element>
 </database>

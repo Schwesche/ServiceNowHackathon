@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_studiengang" table="x_271560_campusnow_student" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_studiengang</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>INF</label>
+            <language>en</language>
+            <name>x_271560_campusnow_student</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-06 08:57:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>176ec776db50230020759235ca96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-06 08:57:28</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_studiengang</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>WI</label>
+            <language>en</language>
+            <name>x_271560_campusnow_student</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-06 08:57:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f8ecf36db50230020759235ca96199d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-06 08:57:43</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_studiengang</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ET</label>
+            <language>en</language>
+            <name>x_271560_campusnow_student</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-06 08:58:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e9e8376db50230020759235ca9619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-06 08:58:32</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_studiengang</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MCD</label>
+            <language>en</language>
+            <name>x_271560_campusnow_student</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-06 08:58:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ace0f32db50230020759235ca96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-06 08:58:42</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_studiengang</element>
+            <name>x_271560_campusnow_student</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-06 08:57:28</sys_created_on>
+            <sys_id>f79f87b6db50230020759235ca961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_studiengang</sys_name>
+            <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
+            <sys_update_name>sys_choice_x_271560_campusnow_student_u_studiengang</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-06 08:57:28</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

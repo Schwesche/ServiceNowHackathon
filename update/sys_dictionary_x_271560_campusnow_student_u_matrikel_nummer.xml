@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_271560_campusnow_student">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_matrikel_nummer" table="x_271560_campusnow_student">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Matrikel Nummer</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -28,14 +28,14 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>u_matrikel_nummer</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
-        <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
         <name>x_271560_campusnow_student</name>
         <next_element/>
         <primary>false</primary>
@@ -53,16 +53,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-06 07:34:49</sys_created_on>
-        <sys_id>b88f07b6db50230020759235ca961907</sys_id>
+        <sys_created_on>2018-09-06 08:51:51</sys_created_on>
+        <sys_id>b5e94fb2db50230020759235ca961920</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_271560_campusnow_student</sys_name>
+        <sys_name>Matrikel Nummer</sys_name>
         <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
         <sys_policy/>
         <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
-        <sys_update_name>sys_dictionary_x_271560_campusnow_student_NULL</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-09-06 09:01:47</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_271560_campusnow_student_u_matrikel_nummer</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-06 08:51:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
