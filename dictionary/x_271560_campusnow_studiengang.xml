@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Studiengang" max_length="40" name="x_271560_campusnow_studiengang" type="collection">
+        <element display="true" label="Name" mandatory="true" max_length="255" name="u_name" type="string_full_utf8"/>
+    </element>
+</database>

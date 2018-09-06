@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_271560_campusnow_student">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_271560_campusnow_studiengang">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -36,7 +36,7 @@
         <internal_type display_value="Collection">collection</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_271560_campusnow_student</name>
+        <name>x_271560_campusnow_studiengang</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -52,17 +52,17 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-06 07:34:49</sys_created_on>
-        <sys_id>66931bbedb1c2300a6f0a0f2ca9619f8</sys_id>
+        <sys_created_by>roehlc</sys_created_by>
+        <sys_created_on>2018-09-06 09:13:53</sys_created_on>
+        <sys_id>8e42937edb1c2300a6f0a0f2ca96197d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_271560_campusnow_student</sys_name>
+        <sys_name>x_271560_campusnow_studiengang</sys_name>
         <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
         <sys_policy/>
         <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
-        <sys_update_name>sys_dictionary_x_271560_campusnow_student_NULL</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-09-06 09:19:39</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_271560_campusnow_studiengang_null</sys_update_name>
+        <sys_updated_by>roehlc</sys_updated_by>
+        <sys_updated_on>2018-09-06 09:13:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

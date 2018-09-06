@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_typ" table="x_271560_campusnow_leistung" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Prüfung</label>
+            <language>en</language>
+            <name>x_271560_campusnow_leistung</name>
+            <sequence/>
+            <sys_created_by>roehlc</sys_created_by>
+            <sys_created_on>2018-09-06 08:32:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>84e84f76db1c2300a6f0a0f2ca9619de</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>roehlc</sys_updated_by>
+            <sys_updated_on>2018-09-06 08:33:07</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bachelor  Arbeit</label>
+            <language>en</language>
+            <name>x_271560_campusnow_leistung</name>
+            <sequence/>
+            <sys_created_by>roehlc</sys_created_by>
+            <sys_created_on>2018-09-06 08:33:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>360943b6db1c2300a6f0a0f2ca9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>roehlc</sys_updated_by>
+            <sys_updated_on>2018-09-06 08:33:30</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kolloquium</label>
+            <language>en</language>
+            <name>x_271560_campusnow_leistung</name>
+            <sequence/>
+            <sys_created_by>roehlc</sys_created_by>
+            <sys_created_on>2018-09-06 08:33:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e1983b6db1c2300a6f0a0f2ca961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>roehlc</sys_updated_by>
+            <sys_updated_on>2018-09-06 08:33:47</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Praxissemester</label>
+            <language>en</language>
+            <name>x_271560_campusnow_leistung</name>
+            <sequence/>
+            <sys_created_by>roehlc</sys_created_by>
+            <sys_created_on>2018-09-06 08:33:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad298376db1c2300a6f0a0f2ca961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>roehlc</sys_updated_by>
+            <sys_updated_on>2018-09-06 08:33:58</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_typ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Projekt</label>
+            <language>en</language>
+            <name>x_271560_campusnow_leistung</name>
+            <sequence/>
+            <sys_created_by>roehlc</sys_created_by>
+            <sys_created_on>2018-09-06 08:34:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f1394f76db1c2300a6f0a0f2ca96198e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>roehlc</sys_updated_by>
+            <sys_updated_on>2018-09-06 08:34:16</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_typ</element>
+            <name>x_271560_campusnow_leistung</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>roehlc</sys_created_by>
+            <sys_created_on>2018-09-06 08:32:47</sys_created_on>
+            <sys_id>8ea3dbbedb1c2300a6f0a0f2ca9619fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_typ</sys_name>
+            <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
+            <sys_update_name>sys_choice_x_271560_campusnow_leistung_u_typ</sys_update_name>
+            <sys_updated_by>roehlc</sys_updated_by>
+            <sys_updated_on>2018-09-06 08:32:47</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
