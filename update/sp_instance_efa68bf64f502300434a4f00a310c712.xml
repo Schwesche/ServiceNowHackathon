@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">6096873e4f502300434a4f00a310c7a3</sp_column>
+        <sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>alexw</sys_created_by>
+        <sys_created_on>2018-09-06 08:23:11</sys_created_on>
+        <sys_id>efa68bf64f502300434a4f00a310c712</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
+        <sys_update_name>sp_instance_efa68bf64f502300434a4f00a310c712</sys_update_name>
+        <sys_updated_by>alexw</sys_updated_by>
+        <sys_updated_on>2018-09-06 08:36:25</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"href": {
+		"value": "campusnow?id=campusnow_klausuranmeldung",
+		"displayValue": "campusnow?id=campusnow_klausuranmeldung"
+	},
+	"button_text": {
+		"value": "Klausuranmeldung",
+		"displayValue": "Klausuranmeldung"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=efa68bf64f502300434a4f00a310c712"/>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>campusnow_klausuranmeldung</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>alexw</sys_created_by>
+        <sys_created_on>2018-09-06 08:24:38</sys_created_on>
+        <sys_id>b407037e4f502300434a4f00a310c73e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>campusnow_klausuranmeldung</sys_name>
+        <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
+        <sys_update_name>sp_page_b407037e4f502300434a4f00a310c73e</sys_update_name>
+        <sys_updated_by>alexw</sys_updated_by>
+        <sys_updated_on>2018-09-06 08:24:38</sys_updated_on>
+        <title>campusnow klausuranmeldung</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=b407037e4f502300434a4f00a310c73e"/>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_column">
+    <sp_column action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>1</order>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">5986c7ba4f502300434a4f00a310c74e</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>alexw</sys_created_by>
+        <sys_created_on>2018-09-06 08:22:29</sys_created_on>
+        <sys_id>19864f3e4f502300434a4f00a310c767</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
+        <sys_update_name>sp_column_19864f3e4f502300434a4f00a310c767</sys_update_name>
+        <sys_updated_by>alexw</sys_updated_by>
+        <sys_updated_on>2018-09-06 08:22:29</sys_updated_on>
+    </sp_column>
+</record_update>
