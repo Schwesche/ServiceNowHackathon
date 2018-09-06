@@ -11,5 +11,6 @@
         </element>
         <element default="5" label="Fachbereich" max_length="40" name="u_fachbereich" type="integer"/>
         <element label="Name" mandatory="true" max_length="255" name="u_name" type="string_full_utf8"/>
+        <element default="180" label="Required Credits" max_length="40" name="u_required_credits" type="integer"/>
     </element>
 </database>

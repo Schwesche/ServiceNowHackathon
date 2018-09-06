@@ -57,6 +57,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_required_credits</element>
+            <position>4</position>
+            <sys_created_by>melinakriska</sys_created_by>
+            <sys_created_on>2018-09-06 18:14:11</sys_created_on>
+            <sys_id>70fd850f4fd4230007b38df07310c778</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_271560_campusnow_studiengang" sys_domain="global" view="Default view">a0f25b7edb1c2300a6f0a0f2ca9619a6</sys_ui_section>
+            <sys_updated_by>melinakriska</sys_updated_by>
+            <sys_updated_on>2018-09-06 18:14:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

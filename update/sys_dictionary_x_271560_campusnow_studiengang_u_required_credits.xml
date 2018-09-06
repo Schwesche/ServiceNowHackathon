@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_name" table="x_271560_campusnow_studiengang">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_required_credits" table="x_271560_campusnow_studiengang">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -15,10 +15,10 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Name</column_label>
+        <column_label>Required Credits</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>180</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -28,14 +28,14 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_name</element>
+        <element>u_required_credits</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">string_full_utf8</internal_type>
-        <mandatory>true</mandatory>
-        <max_length>255</max_length>
+        <internal_type display_value="Integer">integer</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
         <name>x_271560_campusnow_studiengang</name>
         <next_element/>
         <primary>false</primary>
@@ -52,17 +52,17 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
-        <sys_created_by>roehlc</sys_created_by>
-        <sys_created_on>2018-09-06 09:14:39</sys_created_on>
-        <sys_id>81949d434f18230007b38df07310c7a9</sys_id>
+        <sys_created_by>melinakriska</sys_created_by>
+        <sys_created_on>2018-09-06 18:14:11</sys_created_on>
+        <sys_id>30bd850f4fd4230007b38df07310c76c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Name</sys_name>
+        <sys_name>Required Credits</sys_name>
         <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
         <sys_policy/>
         <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
-        <sys_update_name>sys_dictionary_x_271560_campusnow_studiengang_u_name</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-09-06 18:43:14</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_271560_campusnow_studiengang_u_required_credits</sys_update_name>
+        <sys_updated_by>melinakriska</sys_updated_by>
+        <sys_updated_on>2018-09-06 18:14:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

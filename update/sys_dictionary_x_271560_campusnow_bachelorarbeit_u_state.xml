@@ -54,7 +54,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>melinakriska</sys_created_by>
         <sys_created_on>2018-09-06 15:59:45</sys_created_on>
-        <sys_id>7bbccd4b4fd4230007b38df07310c7d7</sys_id>
+        <sys_id>30949d434f18230007b38df07310c792</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>State</sys_name>
         <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
@@ -62,7 +62,7 @@
         <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
         <sys_update_name>sys_dictionary_x_271560_campusnow_bachelorarbeit_u_state</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-09-06 18:09:00</sys_updated_on>
+        <sys_updated_on>2018-09-06 18:43:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
