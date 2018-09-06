@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_name" table="x_271560_campusnow_studiengang">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_abkuerzung" table="x_271560_campusnow_studiengang">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Name</column_label>
+        <column_label>Abkuerzung</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -28,7 +28,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_name</element>
+        <element>u_abkuerzung</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -53,16 +53,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>roehlc</sys_created_by>
-        <sys_created_on>2018-09-06 09:14:39</sys_created_on>
-        <sys_id>7462177edb1c2300a6f0a0f2ca96199a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Name</sys_name>
+        <sys_created_on>2018-09-06 09:37:26</sys_created_on>
+        <sys_id>bd875336db5c2300a6f0a0f2ca96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Abkuerzung</sys_name>
         <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
         <sys_policy/>
         <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
-        <sys_update_name>sys_dictionary_x_271560_campusnow_studiengang_u_name</sys_update_name>
+        <sys_update_name>sys_dictionary_x_271560_campusnow_studiengang_u_abkuerzung</sys_update_name>
         <sys_updated_by>roehlc</sys_updated_by>
-        <sys_updated_on>2018-09-06 09:34:46</sys_updated_on>
+        <sys_updated_on>2018-09-06 09:37:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

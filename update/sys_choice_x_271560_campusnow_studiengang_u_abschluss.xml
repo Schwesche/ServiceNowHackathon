@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_abschluss" table="x_271560_campusnow_studiengang" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_abschluss</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bachelor of Science</label>
+            <language>en</language>
+            <name>x_271560_campusnow_studiengang</name>
+            <sequence/>
+            <sys_created_by>roehlc</sys_created_by>
+            <sys_created_on>2018-09-06 09:38:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3bd7d736db5c2300a6f0a0f2ca96199b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>roehlc</sys_updated_by>
+            <sys_updated_on>2018-09-06 09:38:33</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_abschluss</element>
+            <name>x_271560_campusnow_studiengang</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>roehlc</sys_created_by>
+            <sys_created_on>2018-09-06 09:38:33</sys_created_on>
+            <sys_id>57e7d736db5c2300a6f0a0f2ca96196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_abschluss</sys_name>
+            <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
+            <sys_update_name>sys_choice_x_271560_campusnow_studiengang_u_abschluss</sys_update_name>
+            <sys_updated_by>roehlc</sys_updated_by>
+            <sys_updated_on>2018-09-06 09:38:33</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

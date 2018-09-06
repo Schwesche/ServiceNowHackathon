@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Studiengang" max_length="40" name="x_271560_campusnow_studiengang" type="collection">
-        <element display="true" label="Name" mandatory="true" max_length="255" name="u_name" type="string_full_utf8"/>
+        <element label="Abkuerzung" mandatory="true" max_length="255" name="u_abkuerzung" type="string_full_utf8"/>
+        <element choice="1" default="1" label="Abschluss" max_length="40" name="u_abschluss" type="choice">
+            <choice>
+                <element label="Bachelor of Science" value="1"/>
+            </choice>
+        </element>
+        <element label="Name" mandatory="true" max_length="255" name="u_name" type="string_full_utf8"/>
     </element>
 </database>
