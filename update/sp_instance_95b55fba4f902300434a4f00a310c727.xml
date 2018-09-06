@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">11a593ba4f902300434a4f00a310c7dd</sp_column>
+        <sp_widget display_value="ImageView">e5a497364f902300434a4f00a310c738</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>alexw</sys_created_by>
+        <sys_created_on>2018-09-06 09:28:51</sys_created_on>
+        <sys_id>95b55fba4f902300434a4f00a310c727</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
+        <sys_update_name>sp_instance_95b55fba4f902300434a4f00a310c727</sys_update_name>
+        <sys_updated_by>alexw</sys_updated_by>
+        <sys_updated_on>2018-09-06 09:28:51</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=95b55fba4f902300434a4f00a310c727"/>
+</record_update>
