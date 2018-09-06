@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Bachelorarbeit" max_length="40" name="x_271560_campusnow_bachelorarbeit" type="collection">
+        <element label="Arbeit" max_length="32" name="u_arbeit" reference="x_271560_campusnow_ergebnis" type="reference"/>
+        <element label="Kolloquium" max_length="32" name="u_kolloquium" reference="x_271560_campusnow_ergebnis" type="reference"/>
+        <element label="Pruefer" max_length="32" name="u_pruefer" reference="sys_user" type="reference"/>
+        <element choice="1" label="State" max_length="40" name="u_state" type="choice">
+            <choice>
+                <element label="Abgelehnt" value="4"/>
+                <element label="Genehmigt" value="2"/>
+                <element label="In Bearbeitung" value="3"/>
+                <element label="Warte auf BA Benotung" value="5"/>
+                <element label="Warte auf Kolloquium" value="7"/>
+                <element label="Warte auf Kolloquium Benotung" value="6"/>
+                <element label="Warten auf Genehmigung" value="1"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_kolloquium"/>
+        </index>
+        <index name="index2">
+            <element name="u_arbeit"/>
+        </index>
+        <index name="index3">
+            <element name="u_pruefer"/>
+        </index>
+    </element>
+</database>

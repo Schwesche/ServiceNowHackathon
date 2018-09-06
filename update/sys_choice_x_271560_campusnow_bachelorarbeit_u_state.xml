@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_state" table="x_271560_campusnow_bachelorarbeit" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Warten auf Genehmigung</label>
+            <language>en</language>
+            <name>x_271560_campusnow_bachelorarbeit</name>
+            <sequence/>
+            <sys_created_by>melinakriska</sys_created_by>
+            <sys_created_on>2018-09-06 16:00:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>864f2c874f94230007b38df07310c7c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>melinakriska</sys_updated_by>
+            <sys_updated_on>2018-09-06 16:00:38</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Genehmigt</label>
+            <language>en</language>
+            <name>x_271560_campusnow_bachelorarbeit</name>
+            <sequence/>
+            <sys_created_by>melinakriska</sys_created_by>
+            <sys_created_on>2018-09-06 16:01:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>589f2c874f94230007b38df07310c7c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>melinakriska</sys_updated_by>
+            <sys_updated_on>2018-09-06 16:01:27</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Bearbeitung</label>
+            <language>en</language>
+            <name>x_271560_campusnow_bachelorarbeit</name>
+            <sequence/>
+            <sys_created_by>melinakriska</sys_created_by>
+            <sys_created_on>2018-09-06 16:01:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bcafac874f94230007b38df07310c72e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>melinakriska</sys_updated_by>
+            <sys_updated_on>2018-09-06 16:01:45</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Abgelehnt</label>
+            <language>en</language>
+            <name>x_271560_campusnow_bachelorarbeit</name>
+            <sequence/>
+            <sys_created_by>melinakriska</sys_created_by>
+            <sys_created_on>2018-09-06 16:01:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2fafac874f94230007b38df07310c732</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>melinakriska</sys_updated_by>
+            <sys_updated_on>2018-09-06 16:01:57</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Warte auf BA Benotung</label>
+            <language>en</language>
+            <name>x_271560_campusnow_bachelorarbeit</name>
+            <sequence/>
+            <sys_created_by>melinakriska</sys_created_by>
+            <sys_created_on>2018-09-06 16:02:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>becf64874f94230007b38df07310c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>melinakriska</sys_updated_by>
+            <sys_updated_on>2018-09-06 16:02:26</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Warte auf Kolloquium Benotung</label>
+            <language>en</language>
+            <name>x_271560_campusnow_bachelorarbeit</name>
+            <sequence/>
+            <sys_created_by>melinakriska</sys_created_by>
+            <sys_created_on>2018-09-06 16:02:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b2df20c74f94230007b38df07310c7db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>melinakriska</sys_updated_by>
+            <sys_updated_on>2018-09-06 16:02:42</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Warte auf Kolloquium</label>
+            <language>en</language>
+            <name>x_271560_campusnow_bachelorarbeit</name>
+            <sequence/>
+            <sys_created_by>melinakriska</sys_created_by>
+            <sys_created_on>2018-09-06 16:02:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3eefe4874f94230007b38df07310c7bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>melinakriska</sys_updated_by>
+            <sys_updated_on>2018-09-06 16:02:59</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <name>x_271560_campusnow_bachelorarbeit</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>melinakriska</sys_created_by>
+            <sys_created_on>2018-09-06 16:00:38</sys_created_on>
+            <sys_id>6770f00b4f94230007b38df07310c76d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_state</sys_name>
+            <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
+            <sys_update_name>sys_choice_x_271560_campusnow_bachelorarbeit_u_state</sys_update_name>
+            <sys_updated_by>melinakriska</sys_updated_by>
+            <sys_updated_on>2018-09-06 16:00:38</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
