@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-06 07:42:18</sys_created_on>
+        <sys_id>785d36fe4f10230007b38df07310c734</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_271560_campusnow_ergebnis.x_271560_campusnow.ergebnis_user</sys_name>
+        <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
+        <sys_security_acl display_value="x_271560_campusnow_ergebnis">a05d36fe4f10230007b38df07310c731</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_785d36fe4f10230007b38df07310c734</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-06 07:42:18</sys_updated_on>
+        <sys_user_role display_value="x_271560_campusnow.ergebnis_user" name="x_271560_campusnow.ergebnis_user">2c5d36fe4f10230007b38df07310c721</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
