@@ -4,17 +4,62 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_name</element>
-            <list_id display_value="x_271560_campusnow_studiengang" element="NULL" name="x_271560_campusnow_studiengang" parent="NULL" relationship="NULL" sys_domain="global" view="734a11515d121300651727c3e282e80d">3d55d332db5c2300a6f0a0f2ca961931</list_id>
+            <list_id display_value="x_271560_campusnow_studiengang" element="NULL" name="x_271560_campusnow_studiengang" parent="NULL" relationship="NULL" sys_domain="global" view="734a11515d121300651727c3e282e80d">1a84a336db9c2300a6f0a0f2ca9619b5</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>roehlc</sys_created_by>
-            <sys_created_on>2018-09-06 09:27:14</sys_created_on>
-            <sys_id>f155d332db5c2300a6f0a0f2ca961932</sys_id>
+            <sys_created_on>2018-09-06 10:33:37</sys_created_on>
+            <sys_id>9e84a336db9c2300a6f0a0f2ca9619b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>roehlc</sys_updated_by>
-            <sys_updated_on>2018-09-06 09:27:14</sys_updated_on>
+            <sys_updated_on>2018-09-06 10:33:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_abkuerzung</element>
+            <list_id display_value="x_271560_campusnow_studiengang" element="NULL" name="x_271560_campusnow_studiengang" parent="NULL" relationship="NULL" sys_domain="global" view="734a11515d121300651727c3e282e80d">1a84a336db9c2300a6f0a0f2ca9619b5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>roehlc</sys_created_by>
+            <sys_created_on>2018-09-06 10:33:37</sys_created_on>
+            <sys_id>1284a336db9c2300a6f0a0f2ca9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>roehlc</sys_updated_by>
+            <sys_updated_on>2018-09-06 10:33:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_abschluss</element>
+            <list_id display_value="x_271560_campusnow_studiengang" element="NULL" name="x_271560_campusnow_studiengang" parent="NULL" relationship="NULL" sys_domain="global" view="734a11515d121300651727c3e282e80d">1a84a336db9c2300a6f0a0f2ca9619b5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>roehlc</sys_created_by>
+            <sys_created_on>2018-09-06 10:33:37</sys_created_on>
+            <sys_id>9284a336db9c2300a6f0a0f2ca9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>roehlc</sys_updated_by>
+            <sys_updated_on>2018-09-06 10:33:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_fachbereich</element>
+            <list_id display_value="x_271560_campusnow_studiengang" element="NULL" name="x_271560_campusnow_studiengang" parent="NULL" relationship="NULL" sys_domain="global" view="734a11515d121300651727c3e282e80d">1a84a336db9c2300a6f0a0f2ca9619b5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>roehlc</sys_created_by>
+            <sys_created_on>2018-09-06 10:33:37</sys_created_on>
+            <sys_id>1684a336db9c2300a6f0a0f2ca9619b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>roehlc</sys_updated_by>
+            <sys_updated_on>2018-09-06 10:33:37</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -28,10 +73,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>roehlc</sys_created_by>
-            <sys_created_on>2018-09-06 09:27:14</sys_created_on>
+            <sys_created_on>2018-09-06 10:33:37</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>3d55d332db5c2300a6f0a0f2ca961931</sys_id>
+            <sys_id>1a84a336db9c2300a6f0a0f2ca9619b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_271560_campusnow_studiengang</sys_name>
             <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
@@ -39,7 +84,7 @@
             <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
             <sys_update_name>sys_ui_list_x_271560_campusnow_studiengang_sys_ref_list</sys_update_name>
             <sys_updated_by>roehlc</sys_updated_by>
-            <sys_updated_on>2018-09-06 09:27:14</sys_updated_on>
+            <sys_updated_on>2018-09-06 10:33:37</sys_updated_on>
             <sys_user/>
             <view display_value="Reference List" name="sys_ref_list">734a11515d121300651727c3e282e80d</view>
             <view_name/>
