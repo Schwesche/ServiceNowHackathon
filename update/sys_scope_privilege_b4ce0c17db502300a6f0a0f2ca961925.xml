@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>test.student</sys_created_by>
+        <sys_created_on>2018-09-07 08:16:36</sys_created_on>
+        <sys_id>b4ce0c17db502300a6f0a0f2ca961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user</sys_name>
+        <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
+        <sys_update_name>sys_scope_privilege_b4ce0c17db502300a6f0a0f2ca961925</sys_update_name>
+        <sys_updated_by>test.student</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:16:36</sys_updated_on>
+        <target_name>sys_user</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

@@ -5,7 +5,7 @@
         <active>true</active>
         <client>false</client>
         <comments/>
-        <condition>javascript:new condition_utils().anmeldung_checken() != true;</condition>
+        <condition>javascript:new condition_utils().anmeldung_checken() == 3;</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -24,10 +24,10 @@
         <onclick/>
         <order>100</order>
         <script><![CDATA[var gr_ergebnis = new GlideRecord('x_271560_campusnow_ergebnis');
-gr_ergebnis.newRecord();
+gr_ergebnis.initialize();
 gr_ergebnis.setValue('u_leistung', current.sys_id);
 gr_ergebnis.setValue('u_user', gs.getUserID());
-gr_ergebnis.update();]]></script>
+gr_ergebnis.insert();]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -38,7 +38,7 @@ gr_ergebnis.update();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9782048fdbdc2300a6f0a0f2ca96199e</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Anmelden</sys_name>
         <sys_overrides/>
         <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
@@ -46,7 +46,7 @@ gr_ergebnis.update();]]></script>
         <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
         <sys_update_name>sys_ui_action_9782048fdbdc2300a6f0a0f2ca96199e</sys_update_name>
         <sys_updated_by>roehlc</sys_updated_by>
-        <sys_updated_on>2018-09-06 15:28:33</sys_updated_on>
+        <sys_updated_on>2018-09-07 09:03:28</sys_updated_on>
         <table>x_271560_campusnow_leistung</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
