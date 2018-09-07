@@ -54,7 +54,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>melinakriska</sys_created_by>
         <sys_created_on>2018-09-06 18:14:11</sys_created_on>
-        <sys_id>5546fb4f4f5c230007b38df07310c7a3</sys_id>
+        <sys_id>76c3401b4f102300434a4f00a310c798</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Required Credits</sys_name>
         <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
@@ -62,7 +62,7 @@
         <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
         <sys_update_name>sys_dictionary_x_271560_campusnow_studiengang_u_required_credits</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-09-07 06:29:41</sys_updated_on>
+        <sys_updated_on>2018-09-07 07:28:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
