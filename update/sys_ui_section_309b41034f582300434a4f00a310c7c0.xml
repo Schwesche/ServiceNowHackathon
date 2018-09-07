@@ -2,102 +2,32 @@
 <record_update>
     <sys_ui_section caption="" section_id="309b41034f582300434a4f00a310c7c0" sys_domain="global" table="x_271560_campusnow_bachelorarbeit" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
+            <element>u_pruefer</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-06 18:03:49</sys_created_on>
-            <sys_id>bc9b41034f582300434a4f00a310c7c5</sys_id>
+            <sys_created_on>2018-09-07 06:19:04</sys_created_on>
+            <sys_id>13d3f3c7db10230020759235ca961901</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271560_campusnow_bachelorarbeit" sys_domain="global" view="Default view">309b41034f582300434a4f00a310c7c0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-06 18:03:49</sys_updated_on>
+            <sys_updated_on>2018-09-07 06:19:04</sys_updated_on>
             <sys_user/>
-            <type>.begin_split</type>
+            <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_pruefer</element>
+            <element>u_thema</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-06 18:03:49</sys_created_on>
-            <sys_id>b49b41034f582300434a4f00a310c7c6</sys_id>
+            <sys_created_on>2018-09-07 06:19:04</sys_created_on>
+            <sys_id>93d3f3c7db10230020759235ca961901</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_271560_campusnow_bachelorarbeit" sys_domain="global" view="Default view">309b41034f582300434a4f00a310c7c0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-06 18:03:49</sys_updated_on>
+            <sys_updated_on>2018-09-07 06:19:04</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_arbeit</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-06 18:03:49</sys_created_on>
-            <sys_id>389b41034f582300434a4f00a310c7c6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_271560_campusnow_bachelorarbeit" sys_domain="global" view="Default view">309b41034f582300434a4f00a310c7c0</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-06 18:03:49</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-06 18:03:49</sys_created_on>
-            <sys_id>b89b41034f582300434a4f00a310c7c6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_271560_campusnow_bachelorarbeit" sys_domain="global" view="Default view">309b41034f582300434a4f00a310c7c0</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-06 18:03:49</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_kolloquium</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-06 18:03:49</sys_created_on>
-            <sys_id>3c9b41034f582300434a4f00a310c7c6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_271560_campusnow_bachelorarbeit" sys_domain="global" view="Default view">309b41034f582300434a4f00a310c7c0</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-06 18:03:49</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_state</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-06 18:03:49</sys_created_on>
-            <sys_id>bc9b41034f582300434a4f00a310c7c6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_271560_campusnow_bachelorarbeit" sys_domain="global" view="Default view">309b41034f582300434a4f00a310c7c0</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-06 18:03:49</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-09-06 18:03:49</sys_created_on>
-            <sys_id>309b41034f582300434a4f00a310c7c7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_271560_campusnow_bachelorarbeit" sys_domain="global" view="Default view">309b41034f582300434a4f00a310c7c0</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-09-06 18:03:49</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

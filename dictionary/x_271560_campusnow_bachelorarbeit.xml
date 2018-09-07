@@ -3,7 +3,7 @@
     <element label="Bachelorarbeit" max_length="40" name="x_271560_campusnow_bachelorarbeit" type="collection">
         <element label="Arbeit" max_length="32" name="u_arbeit" reference="x_271560_campusnow_ergebnis" type="reference"/>
         <element label="Kolloquium" max_length="32" name="u_kolloquium" reference="x_271560_campusnow_ergebnis" type="reference"/>
-        <element label="Pruefer" max_length="32" name="u_pruefer" reference="sys_user" type="reference"/>
+        <element label="Pruefer" mandatory="true" max_length="32" name="u_pruefer" reference="sys_user" type="reference"/>
         <element choice="1" label="State" max_length="40" name="u_state" type="choice">
             <choice>
                 <element label="Abgelehnt" value="4"/>
@@ -16,6 +16,7 @@
             </choice>
         </element>
         <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Student" max_length="32" name="u_student" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Thema" mandatory="true" max_length="100" name="u_thema" type="string"/>
         <index name="index">
             <element name="u_student"/>
         </index>
