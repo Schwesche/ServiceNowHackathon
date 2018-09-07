@@ -17,14 +17,14 @@
         <sys_created_by>alexw</sys_created_by>
         <sys_created_on>2018-09-06 08:23:11</sys_created_on>
         <sys_id>efa68bf64f502300434a4f00a310c712</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
         <sys_policy/>
         <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
         <sys_update_name>sp_instance_efa68bf64f502300434a4f00a310c712</sys_update_name>
-        <sys_updated_by>alexw</sys_updated_by>
-        <sys_updated_on>2018-09-06 08:36:25</sys_updated_on>
+        <sys_updated_by>melinakriska</sys_updated_by>
+        <sys_updated_on>2018-09-07 06:24:27</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters><![CDATA[{
@@ -33,8 +33,8 @@
 		"displayValue": "campusnow?id=campusnow_klausuranmeldung"
 	},
 	"button_text": {
-		"value": "Klausuranmeldung",
-		"displayValue": "Klausuranmeldung"
+		"value": "Klausuranmeldung / -abmeldung",
+		"displayValue": "Klausuranmeldung / -abmeldung"
 	}
 }]]></widget_parameters>
     </sp_instance>
