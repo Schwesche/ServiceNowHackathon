@@ -5,7 +5,7 @@
         <active>true</active>
         <client>false</client>
         <comments/>
-        <condition>javascript:current.u_state == 1;</condition>
+        <condition>javascript:new condition_utils().anmeldung_checken() == 1;</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -23,27 +23,33 @@
         <name>Abmelden</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[current.deleteRecord();]]></script>
+        <script><![CDATA[var gr = new GlideRecord('x_271560_campusnow_ergebnis');
+gr.addQuery('u_user', gs.getUserID());
+gr.addQuery('u_leistung', current.sys_id);
+gr.addQuery('u_state', '1');
+gr.query();
+//gs.error("Hier: " + gr.next());
+gr.deleteMultiple();]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>roehlc</sys_created_by>
-        <sys_created_on>2018-09-06 15:24:31</sys_created_on>
+        <sys_created_on>2018-09-07 09:27:13</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>67176887db906300a6f0a0f2ca96192b</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_id>d3ee909fdb502300a6f0a0f2ca96196f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Abmelden</sys_name>
         <sys_overrides/>
         <sys_package display_value="campusnow" source="x_271560_campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_package>
         <sys_policy/>
         <sys_scope display_value="campusnow">70a9d472db942300a6f0a0f2ca96191b</sys_scope>
-        <sys_update_name>sys_ui_action_67176887db906300a6f0a0f2ca96192b</sys_update_name>
+        <sys_update_name>sys_ui_action_d3ee909fdb502300a6f0a0f2ca96196f</sys_update_name>
         <sys_updated_by>roehlc</sys_updated_by>
-        <sys_updated_on>2018-09-07 09:34:30</sys_updated_on>
-        <table>x_271560_campusnow_ergebnis</table>
+        <sys_updated_on>2018-09-07 09:27:13</sys_updated_on>
+        <table>x_271560_campusnow_leistung</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>
