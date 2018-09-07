@@ -2,7 +2,7 @@
 <record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"subflows":[],"stages":{},"ends":["54890c97db50230020759235ca96199a"],"activities":{}}</activity_stages>
+        <activity_stages>{"subflows":[],"stages":{},"ends":["975f4c9fdb50230020759235ca961921"],"activities":{}}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -10,10 +10,10 @@
         <condition/>
         <condition_type>run_match</condition_type>
         <description/>
-        <expected_sequences>9c890c97db50230020759235ca96198b,18890c97db50230020759235ca96198c,dc890c97db50230020759235ca961993,54890c97db50230020759235ca961992,54890c97db50230020759235ca961991,10890c97db50230020759235ca961999,90890c97db50230020759235ca961993,90890c97db50230020759235ca96198a,54890c97db50230020759235ca96199a</expected_sequences>
+        <expected_sequences>d75f4c9fdb50230020759235ca96192a,175f445bdb50230020759235ca961978,d75f4c9fdb50230020759235ca96192b,df5f445bdb50230020759235ca96197a,5b5f445bdb50230020759235ca961979,db5f445bdb50230020759235ca961975,9b5f4c9fdb50230020759235ca961929,975f4c9fdb50230020759235ca961921</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>9c890c97db50230020759235ca96198b,18890c97db50230020759235ca96198c,dc890c97db50230020759235ca961993,58890c97db50230020759235ca96198f,54890c97db50230020759235ca961992,5c890c97db50230020759235ca96198d,54890c97db50230020759235ca96199a,54890c97db50230020759235ca961991,10890c97db50230020759235ca961999,90890c97db50230020759235ca961993,90890c97db50230020759235ca961988,90890c97db50230020759235ca96198a</full_sequences>
+        <full_sequences>d75f4c9fdb50230020759235ca96192a,175f445bdb50230020759235ca961978,d75f4c9fdb50230020759235ca96192b,175f4c9fdb50230020759235ca961922,df5f445bdb50230020759235ca96197a,975f4c9fdb50230020759235ca961924,975f4c9fdb50230020759235ca961921,5b5f445bdb50230020759235ca961979,db5f445bdb50230020759235ca961975,9b5f4c9fdb50230020759235ca961929,935f4c9fdb50230020759235ca961926</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>Bachelorarbeit</name>
@@ -28,13 +28,13 @@
         <schedule/>
         <stage_field/>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">9c890c97db50230020759235ca96198b</start>
+        <start display_value="Begin">d75f4c9fdb50230020759235ca96192a</start>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>9c890c97db50230020759235ca961986</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>5f5f445bdb50230020759235ca961973</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:55:20</sys_updated_on>
+        <sys_updated_on>2018-09-07 09:07:01</sys_updated_on>
         <table>x_271560_campusnow_bachelorarbeit</table>
         <timezone/>
         <validated>false</validated>
@@ -65,297 +65,6 @@
         <vars/>
     </wf_workflow>
     <wf_activity action="INSERT_OR_UPDATE">
-        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
-        <activity_definition_updated>false</activity_definition_updated>
-        <databus_lookup_id>10</databus_lookup_id>
-        <height/>
-        <input>{}</input>
-        <is_parent>false</is_parent>
-        <name/>
-        <new_activity_definition/>
-        <notes/>
-        <out_of_date>false</out_of_date>
-        <parent/>
-        <pinned>false</pinned>
-        <pinned_version/>
-        <stage/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>10890c97db50230020759235ca961999</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <timeout>1970-01-01 00:00:00</timeout>
-        <vars/>
-        <width/>
-        <workflow_version display_value="Bachelorarbeit">9c890c97db50230020759235ca961986</workflow_version>
-        <x>945</x>
-        <y>51</y>
-    </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=10890c97db50230020759235ca961999"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>10890c97db50230020759235ca961999</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>18890c97db50230020759235ca961999</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
-//&#13;
-// For example,&#13;
-//&#13;
-//   answer = ifScript();&#13;
-//&#13;
-//   function ifScript() {&#13;
-//      if (condition is true) {&#13;
-//         return 'yes';&#13;
-//      }&#13;
-//      return 'no';&#13;
-//   }&#13;
-</value>
-        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>10890c97db50230020759235ca961999</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>54890c97db50230020759235ca961999</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>0</value>
-        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>10890c97db50230020759235ca961999</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>90890c97db50230020759235ca961999</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>u_arbeit.u_state=2^EQ</value>
-        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>10890c97db50230020759235ca961999</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>90890c97db50230020759235ca961999</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>u_arbeit.u_state=2^EQ</value>
-        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>10890c97db50230020759235ca961999</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>54890c97db50230020759235ca961999</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>0</value>
-        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>10890c97db50230020759235ca961999</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>18890c97db50230020759235ca961999</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
-//&#13;
-// For example,&#13;
-//&#13;
-//   answer = ifScript();&#13;
-//&#13;
-//   function ifScript() {&#13;
-//      if (condition is true) {&#13;
-//         return 'yes';&#13;
-//      }&#13;
-//      return 'no';&#13;
-//   }&#13;
-</value>
-        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
-    </sys_variable_value>
-    <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="">10890c97db50230020759235ca961999</activity>
-        <condition>activity.result == 'no'</condition>
-        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
-        <condition_type>standard</condition_type>
-        <else_flag>false</else_flag>
-        <error>false</error>
-        <event>false</event>
-        <event_name/>
-        <is_positive>false</is_positive>
-        <name>No</name>
-        <order>200</order>
-        <short_description/>
-        <skip_during_generate>true</skip_during_generate>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>5c890c97db50230020759235ca961999</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-    </wf_condition>
-    <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="">10890c97db50230020759235ca961999</activity>
-        <condition>activity.result == 'yes'</condition>
-        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
-        <condition_type>standard</condition_type>
-        <else_flag>false</else_flag>
-        <error>false</error>
-        <event>false</event>
-        <event_name/>
-        <is_positive>true</is_positive>
-        <name>Yes</name>
-        <order>100</order>
-        <short_description/>
-        <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>dc890c97db50230020759235ca961999</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-    </wf_condition>
-    <wf_activity action="INSERT_OR_UPDATE">
-        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
-        <activity_definition_updated>false</activity_definition_updated>
-        <databus_lookup_id>9</databus_lookup_id>
-        <height/>
-        <input>{}</input>
-        <is_parent>false</is_parent>
-        <name/>
-        <new_activity_definition/>
-        <notes/>
-        <out_of_date>false</out_of_date>
-        <parent/>
-        <pinned>false</pinned>
-        <pinned_version/>
-        <stage/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>54890c97db50230020759235ca961991</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <timeout>1970-01-01 00:00:00</timeout>
-        <vars/>
-        <width/>
-        <workflow_version display_value="Bachelorarbeit">9c890c97db50230020759235ca961986</workflow_version>
-        <x>759</x>
-        <y>23</y>
-    </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=54890c97db50230020759235ca961991"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>54890c97db50230020759235ca961991</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>98890c97db50230020759235ca961991</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>u_arbeit.u_noteISNOTEMPTY^EQ</value>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>54890c97db50230020759235ca961991</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d4890c97db50230020759235ca961991</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
-answer = true;&#13;
-&#13;
-</value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>54890c97db50230020759235ca961991</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>98890c97db50230020759235ca961991</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>u_arbeit.u_noteISNOTEMPTY^EQ</value>
-        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>54890c97db50230020759235ca961991</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d4890c97db50230020759235ca961991</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
-answer = true;&#13;
-&#13;
-</value>
-        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
-    </sys_variable_value>
-    <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="">54890c97db50230020759235ca961991</activity>
-        <condition>true</condition>
-        <condition_default/>
-        <condition_type>standard</condition_type>
-        <else_flag>false</else_flag>
-        <error>false</error>
-        <event>false</event>
-        <event_name/>
-        <is_positive>true</is_positive>
-        <name>Always</name>
-        <order>0</order>
-        <short_description/>
-        <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>dc890c97db50230020759235ca961991</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-    </wf_condition>
-    <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
         <databus_lookup_id>5</databus_lookup_id>
@@ -371,44 +80,30 @@ answer = true;&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>58890c97db50230020759235ca96198f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>175f4c9fdb50230020759235ca961922</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 09:05:21</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Bachelorarbeit">9c890c97db50230020759235ca961986</workflow_version>
-        <x>244</x>
-        <y>140</y>
+        <workflow_version display_value="Bachelorarbeit">5f5f445bdb50230020759235ca961973</workflow_version>
+        <x>69</x>
+        <y>309</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=58890c97db50230020759235ca96198f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=175f4c9fdb50230020759235ca961922"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>58890c97db50230020759235ca96198f</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>14890c97db50230020759235ca961990</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>Bachelorarbeit abgelehnt</value>
-        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>58890c97db50230020759235ca96198f</document_key>
+        <document_key>175f4c9fdb50230020759235ca961922</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>50890c97db50230020759235ca961990</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>135f4c9fdb50230020759235ca961923</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 &#13;
 answer = [current.u_student.sys_id];</value>
@@ -416,43 +111,43 @@ answer = [current.u_student.sys_id];</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>58890c97db50230020759235ca96198f</document_key>
+        <document_key>175f4c9fdb50230020759235ca961922</document_key>
         <order>150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>98890c97db50230020759235ca961990</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>5b5f4c9fdb50230020759235ca961923</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
         <value/>
         <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>58890c97db50230020759235ca96198f</document_key>
+        <document_key>175f4c9fdb50230020759235ca961922</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>9c890c97db50230020759235ca96198f</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>5f5f4c9fdb50230020759235ca961922</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
         <value>1</value>
         <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>58890c97db50230020759235ca96198f</document_key>
+        <document_key>175f4c9fdb50230020759235ca961922</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d4890c97db50230020759235ca961990</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>975f4c9fdb50230020759235ca961923</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
         <value>Hallo ${u_student.first_name},&#13;
 &#13;
 leider müssen wir dir mitteilen, dass deine Bachelorarbeit aufgrund von fehlenden Prüfungsleistungen noch nicht beantragt werden kann.&#13;
@@ -464,71 +159,85 @@ Dein Team von CampusNow</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>58890c97db50230020759235ca96198f</document_key>
+        <document_key>175f4c9fdb50230020759235ca961922</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d8890c97db50230020759235ca96198f</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>9b5f4c9fdb50230020759235ca961922</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
         <value/>
         <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>58890c97db50230020759235ca96198f</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d8890c97db50230020759235ca96198f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>58890c97db50230020759235ca96198f</document_key>
-        <order>150</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>98890c97db50230020759235ca961990</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>58890c97db50230020759235ca96198f</document_key>
+        <document_key>175f4c9fdb50230020759235ca961922</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>14890c97db50230020759235ca961990</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>d35f4c9fdb50230020759235ca961923</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
         <value>Bachelorarbeit abgelehnt</value>
         <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>58890c97db50230020759235ca96198f</document_key>
+        <document_key>175f4c9fdb50230020759235ca961922</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>9b5f4c9fdb50230020759235ca961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>175f4c9fdb50230020759235ca961922</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>5b5f4c9fdb50230020759235ca961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>175f4c9fdb50230020759235ca961922</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>d35f4c9fdb50230020759235ca961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
+        <value>Bachelorarbeit abgelehnt</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>175f4c9fdb50230020759235ca961922</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d4890c97db50230020759235ca961990</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>975f4c9fdb50230020759235ca961923</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
         <value>Hallo ${u_student.first_name},&#13;
 &#13;
 leider müssen wir dir mitteilen, dass deine Bachelorarbeit aufgrund von fehlenden Prüfungsleistungen noch nicht beantragt werden kann.&#13;
@@ -540,36 +249,36 @@ Dein Team von CampusNow</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>58890c97db50230020759235ca96198f</document_key>
+        <document_key>175f4c9fdb50230020759235ca961922</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>9c890c97db50230020759235ca96198f</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>5f5f4c9fdb50230020759235ca961922</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
         <value>1</value>
         <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>58890c97db50230020759235ca96198f</document_key>
+        <document_key>175f4c9fdb50230020759235ca961922</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>50890c97db50230020759235ca961990</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>135f4c9fdb50230020759235ca961923</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 &#13;
 answer = [current.u_student.sys_id];</value>
         <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Absage erteilen">58890c97db50230020759235ca96198f</activity>
+        <activity display_value="Absage erteilen">175f4c9fdb50230020759235ca961922</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -583,11 +292,11 @@ answer = [current.u_student.sys_id];</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>dc890c97db50230020759235ca961990</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>135f4c9fdb50230020759235ca961924</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
@@ -605,162 +314,162 @@ answer = [current.u_student.sys_id];</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>5c890c97db50230020759235ca96198d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>975f4c9fdb50230020759235ca961924</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 09:05:36</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Bachelorarbeit">9c890c97db50230020759235ca961986</workflow_version>
-        <x>426</x>
-        <y>113</y>
+        <workflow_version display_value="Bachelorarbeit">5f5f445bdb50230020759235ca961973</workflow_version>
+        <x>293</x>
+        <y>183</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=5c890c97db50230020759235ca96198d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=975f4c9fdb50230020759235ca961924"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>5c890c97db50230020759235ca96198d</document_key>
+        <document_key>975f4c9fdb50230020759235ca961924</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>175f4c9fdb50230020759235ca961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value>Hallo ${u_student.first_name},&#13;
+&#13;
+leider hat ihr betreuender Prüfer den Antrag abgelehnt. Bitte halten Sie persönlich Rücksprache für weitere Informationen.&#13;
+&#13;
+Viele Grüße&#13;
+Dein Team von CampusNow</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>975f4c9fdb50230020759235ca961924</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>1b5f4c9fdb50230020759235ca961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>975f4c9fdb50230020759235ca961924</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>18890c97db50230020759235ca96198e</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>535f4c9fdb50230020759235ca961925</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>Bachelorarbeit abgelehnt</value>
         <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>5c890c97db50230020759235ca96198d</document_key>
+        <document_key>975f4c9fdb50230020759235ca961924</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>54890c97db50230020759235ca96198e</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>9f5f4c9fdb50230020759235ca961924</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 answer = [current.u_student.sys_id];</value>
         <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>5c890c97db50230020759235ca96198d</document_key>
+        <document_key>975f4c9fdb50230020759235ca961924</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>d75f4c9fdb50230020759235ca961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>975f4c9fdb50230020759235ca961924</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>90890c97db50230020759235ca96198e</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>db5f4c9fdb50230020759235ca961924</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>1</value>
         <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>5c890c97db50230020759235ca96198d</document_key>
-        <order>150</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>9c890c97db50230020759235ca96198e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>5c890c97db50230020759235ca96198d</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d8890c97db50230020759235ca96198e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>Hallo ${u_student.first_name},&#13;
-&#13;
-leider hat ihr betreuender Prüfer den Antrag abgelehnt. Bitte halten Sie persönlich Rücksprache für weitere Informationen.&#13;
-&#13;
-Viele Grüße&#13;
-Dein Team von CampusNow</value>
-        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>5c890c97db50230020759235ca96198d</document_key>
+        <document_key>975f4c9fdb50230020759235ca961924</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>dc890c97db50230020759235ca96198d</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>1b5f4c9fdb50230020759235ca961924</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value/>
         <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>5c890c97db50230020759235ca96198d</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>dc890c97db50230020759235ca96198d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>5c890c97db50230020759235ca96198d</document_key>
+        <document_key>975f4c9fdb50230020759235ca961924</document_key>
         <order>150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>9c890c97db50230020759235ca96198e</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>d75f4c9fdb50230020759235ca961925</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value/>
         <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>5c890c97db50230020759235ca96198d</document_key>
+        <document_key>975f4c9fdb50230020759235ca961924</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>18890c97db50230020759235ca96198e</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>535f4c9fdb50230020759235ca961925</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>Bachelorarbeit abgelehnt</value>
         <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>5c890c97db50230020759235ca96198d</document_key>
+        <document_key>975f4c9fdb50230020759235ca961924</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d8890c97db50230020759235ca96198e</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>175f4c9fdb50230020759235ca961925</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>Hallo ${u_student.first_name},&#13;
 &#13;
 leider hat ihr betreuender Prüfer den Antrag abgelehnt. Bitte halten Sie persönlich Rücksprache für weitere Informationen.&#13;
@@ -771,35 +480,35 @@ Dein Team von CampusNow</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>5c890c97db50230020759235ca96198d</document_key>
+        <document_key>975f4c9fdb50230020759235ca961924</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>90890c97db50230020759235ca96198e</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>db5f4c9fdb50230020759235ca961924</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>1</value>
         <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>5c890c97db50230020759235ca96198d</document_key>
+        <document_key>975f4c9fdb50230020759235ca961924</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>54890c97db50230020759235ca96198e</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>9f5f4c9fdb50230020759235ca961924</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 answer = [current.u_student.sys_id];</value>
         <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Absage erteilen">5c890c97db50230020759235ca96198d</activity>
+        <activity display_value="Absage erteilen">975f4c9fdb50230020759235ca961924</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -813,11 +522,11 @@ answer = [current.u_student.sys_id];</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d0890c97db50230020759235ca96198f</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>1f5f4c9fdb50230020759235ca961925</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Approval - User">35433da80a0a029a0028c639a1e51eb4</activity_definition>
@@ -835,185 +544,157 @@ answer = [current.u_student.sys_id];</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>dc890c97db50230020759235ca961993</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>d75f4c9fdb50230020759235ca96192b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 09:05:34</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Bachelorarbeit">9c890c97db50230020759235ca961986</workflow_version>
-        <x>354</x>
-        <y>7</y>
+        <workflow_version display_value="Bachelorarbeit">5f5f445bdb50230020759235ca961973</workflow_version>
+        <x>176</x>
+        <y>8</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=dc890c97db50230020759235ca961993"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d75f4c9fdb50230020759235ca96192b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>101</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>10890c97db50230020759235ca961995</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>approval</value>
-        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>115</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>10890c97db50230020759235ca961998</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>2000</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>14890c97db50230020759235ca961994</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>135f4c9fdb50230020759235ca96192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>1</value>
         <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>104</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>14890c97db50230020759235ca961997</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>135f4c9fdb50230020759235ca96192f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value/>
         <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>50</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>18890c97db50230020759235ca961996</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>175f4c9fdb50230020759235ca96192e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value/>
         <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>1c890c97db50230020759235ca961995</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>1b5f4c9fdb50230020759235ca96192d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value/>
         <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>110</order>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>101</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>50890c97db50230020759235ca961994</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>1f5f4c9fdb50230020759235ca96192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>1f5f4c9fdb50230020759235ca96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value/>
-        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
+        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>900</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>50890c97db50230020759235ca961997</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
-        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>1110</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>54890c97db50230020759235ca961996</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>535f4c9fdb50230020759235ca96192e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value/>
         <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>1360</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>58890c97db50230020759235ca961995</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>575f4c9fdb50230020759235ca96192d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
         <variable display_value="">a782cde9c0a8006608f39abdd85c8395</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>1330</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>5c890c97db50230020759235ca961994</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>5b5f4c9fdb50230020759235ca96192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value/>
         <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>2050</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>5c890c97db50230020759235ca961997</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>5b5f4c9fdb50230020759235ca96192f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
 //&#13;
 // For example:&#13;
@@ -1026,113 +707,113 @@ answer = current.u_pruefer.sys_id;</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>310</order>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>110</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>90890c97db50230020759235ca961996</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>5f5f4c9fdb50230020759235ca96192b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>reject</value>
-        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value/>
+        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>5f5f4c9fdb50230020759235ca96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>120</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>94890c97db50230020759235ca961995</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>935f4c9fdb50230020759235ca96192d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value/>
         <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>1200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>98890c97db50230020759235ca961994</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>975f4c9fdb50230020759235ca96192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value/>
         <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>900</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>98890c97db50230020759235ca961997</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>975f4c9fdb50230020759235ca96192f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value/>
         <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>1150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>9c890c97db50230020759235ca961996</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>9b5f4c9fdb50230020759235ca96192e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value/>
         <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>103</order>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>310</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d0890c97db50230020759235ca961995</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>9f5f4c9fdb50230020759235ca96192d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>1200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d0890c97db50230020759235ca961998</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>1370</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d4890c97db50230020759235ca961994</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>d35f4c9fdb50230020759235ca96192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
 //&#13;
 //    counts.total = total number of users that are part of this approval&#13;
@@ -1147,338 +828,366 @@ answer = current.u_pruefer.sys_id;</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d4890c97db50230020759235ca961997</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>d35f4c9fdb50230020759235ca96192f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>any</value>
         <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>1120</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d8890c97db50230020759235ca961996</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>d75f4c9fdb50230020759235ca96192e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
         <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>330</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>dc890c97db50230020759235ca961995</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>db5f4c9fdb50230020759235ca96192d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>approval_history</value>
         <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>50</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>18890c97db50230020759235ca961996</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d4890c97db50230020759235ca961997</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>any</value>
-        <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>101</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>10890c97db50230020759235ca961995</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>approval</value>
-        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>103</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d0890c97db50230020759235ca961995</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>df5f4c9fdb50230020759235ca96192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value/>
         <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>104</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>14890c97db50230020759235ca961997</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>110</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>50890c97db50230020759235ca961994</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>115</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>10890c97db50230020759235ca961998</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>120</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>94890c97db50230020759235ca961995</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>1c890c97db50230020759235ca961995</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>310</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>90890c97db50230020759235ca961996</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>reject</value>
-        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>330</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>dc890c97db50230020759235ca961995</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>approval_history</value>
-        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>900</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>50890c97db50230020759235ca961997</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
-        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>900</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>98890c97db50230020759235ca961997</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>1110</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>54890c97db50230020759235ca961996</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>1120</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d8890c97db50230020759235ca961996</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
-        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>1150</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>9c890c97db50230020759235ca961996</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>1200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>98890c97db50230020759235ca961994</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>df5f4c9fdb50230020759235ca96192f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
-        <order>1200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d0890c97db50230020759235ca961998</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value/>
         <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>175f4c9fdb50230020759235ca96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value/>
+        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>d35f4c9fdb50230020759235ca96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value>any</value>
+        <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>1f5f4c9fdb50230020759235ca96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>df5f4c9fdb50230020759235ca96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value/>
+        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>135f4c9fdb50230020759235ca96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value/>
+        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>5f5f4c9fdb50230020759235ca96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value/>
+        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>1f5f4c9fdb50230020759235ca96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value/>
+        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>935f4c9fdb50230020759235ca96192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value/>
+        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>1b5f4c9fdb50230020759235ca96192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value/>
+        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>9f5f4c9fdb50230020759235ca96192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>db5f4c9fdb50230020759235ca96192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>5f5f4c9fdb50230020759235ca96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>975f4c9fdb50230020759235ca96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value/>
+        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>535f4c9fdb50230020759235ca96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value/>
+        <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>d75f4c9fdb50230020759235ca96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>9b5f4c9fdb50230020759235ca96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value/>
+        <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>975f4c9fdb50230020759235ca96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value/>
+        <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>df5f4c9fdb50230020759235ca96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value/>
+        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>1330</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>5c890c97db50230020759235ca961994</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>5b5f4c9fdb50230020759235ca96192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value/>
         <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>1360</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>58890c97db50230020759235ca961995</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>575f4c9fdb50230020759235ca96192d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>// Set 'answer' to the number of seconds this timer should wait&#13;
 answer = 0;</value>
         <variable display_value="">a782cde9c0a8006608f39abdd85c8395</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>1370</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d4890c97db50230020759235ca961994</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>d35f4c9fdb50230020759235ca96192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
 //&#13;
 //    counts.total = total number of users that are part of this approval&#13;
@@ -1493,29 +1202,29 @@ answer = 0;</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>2000</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>14890c97db50230020759235ca961994</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>135f4c9fdb50230020759235ca96192c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>1</value>
         <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>dc890c97db50230020759235ca961993</document_key>
+        <document_key>d75f4c9fdb50230020759235ca96192b</document_key>
         <order>2050</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>5c890c97db50230020759235ca961997</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>5b5f4c9fdb50230020759235ca96192f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
 //&#13;
 // For example:&#13;
@@ -1527,7 +1236,7 @@ answer = current.u_pruefer.sys_id;</value>
         <variable display_value="">c35e582f0a0a0ba96248a70985207e63</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Bachelorarbeit akzeptieren">dc890c97db50230020759235ca961993</activity>
+        <activity display_value="Bachelorarbeit akzeptieren">d75f4c9fdb50230020759235ca96192b</activity>
         <condition>activity.result == 'approved' || activity.result == 'skipped'</condition>
         <condition_default display_value="Approved">586e1fa60a0a0b5c008121ab894f2b06</condition_default>
         <condition_type>standard</condition_type>
@@ -1541,14 +1250,14 @@ answer = current.u_pruefer.sys_id;</value>
         <short_description>Approval request was approved</short_description>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>98890c97db50230020759235ca961998</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>1b5f4c9fdb50230020759235ca961930</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Bachelorarbeit akzeptieren">dc890c97db50230020759235ca961993</activity>
+        <activity display_value="Bachelorarbeit akzeptieren">d75f4c9fdb50230020759235ca96192b</activity>
         <condition>activity.result == 'rejected'</condition>
         <condition_default display_value="Rejected">586e4ef60a0a0b5c00440b56c014c8a5</condition_default>
         <condition_type>standard</condition_type>
@@ -1562,11 +1271,11 @@ answer = current.u_pruefer.sys_id;</value>
         <short_description>Approval request was rejected</short_description>
         <skip_during_generate>true</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>18890c97db50230020759235ca961998</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>975f4c9fdb50230020759235ca961930</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -1584,30 +1293,30 @@ answer = current.u_pruefer.sys_id;</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>54890c97db50230020759235ca961992</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>df5f445bdb50230020759235ca96197a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 09:05:37</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Bachelorarbeit">9c890c97db50230020759235ca961986</workflow_version>
-        <x>579</x>
-        <y>10</y>
+        <workflow_version display_value="Bachelorarbeit">5f5f445bdb50230020759235ca961973</workflow_version>
+        <x>406</x>
+        <y>8</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=54890c97db50230020759235ca961992"/>
+    <sys_variable_value action="delete_multiple" query="document_key=df5f445bdb50230020759235ca96197a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>54890c97db50230020759235ca961992</document_key>
+        <document_key>df5f445bdb50230020759235ca96197a</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d4890c97db50230020759235ca961992</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>575f445bdb50230020759235ca96197b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
         <value>var gr = new GlideRecord('x_271560_campusnow_leistung');&#13;
 gr.initialize();&#13;
 gr.u_credits = 12;&#13;
@@ -1628,15 +1337,15 @@ current.u_arbeit = ba_ergebnis;&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>54890c97db50230020759235ca961992</document_key>
+        <document_key>df5f445bdb50230020759235ca96197a</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d4890c97db50230020759235ca961992</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>575f445bdb50230020759235ca96197b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
         <value>var gr = new GlideRecord('x_271560_campusnow_leistung');&#13;
 gr.initialize();&#13;
 gr.u_credits = 12;&#13;
@@ -1656,7 +1365,7 @@ current.u_arbeit = ba_ergebnis;&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Bachelorarbeit Leistung und Ergebnis erstellen">54890c97db50230020759235ca961992</activity>
+        <activity display_value="Bachelorarbeit Leistung und Ergebnis erstellen">df5f445bdb50230020759235ca96197a</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1670,11 +1379,11 @@ current.u_arbeit = ba_ergebnis;&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>1c890c97db50230020759235ca961992</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>135f4c9fdb50230020759235ca961921</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
@@ -1692,73 +1401,162 @@ current.u_arbeit = ba_ergebnis;&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>90890c97db50230020759235ca961988</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>935f4c9fdb50230020759235ca961926</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 09:05:45</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Bachelorarbeit">9c890c97db50230020759235ca961986</workflow_version>
-        <x>732</x>
-        <y>193</y>
+        <workflow_version display_value="Bachelorarbeit">5f5f445bdb50230020759235ca961973</workflow_version>
+        <x>741</x>
+        <y>216</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=90890c97db50230020759235ca961988"/>
+    <sys_variable_value action="delete_multiple" query="document_key=935f4c9fdb50230020759235ca961926"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca961988</document_key>
+        <document_key>935f4c9fdb50230020759235ca961926</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>135f4c9fdb50230020759235ca961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value>Hallo ${u_student.first_name},&#13;
+&#13;
+leider hast du deine Bachelorarbeit nicht bestanden.&#13;
+&#13;
+Viele Grüße&#13;
+Dein Team von CampusNow</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>935f4c9fdb50230020759235ca961926</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>175f4c9fdb50230020759235ca961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>935f4c9fdb50230020759235ca961926</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>5f5f4c9fdb50230020759235ca961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value>Bachelorarbeit leider nicht bestanden</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>935f4c9fdb50230020759235ca961926</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>1c890c97db50230020759235ca961988</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>9b5f4c9fdb50230020759235ca961926</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 answer = [current.u_student.sys_id];</value>
         <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca961988</document_key>
+        <document_key>935f4c9fdb50230020759235ca961926</document_key>
         <order>150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>54890c97db50230020759235ca961989</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>d35f4c9fdb50230020759235ca961927</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value/>
         <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca961988</document_key>
+        <document_key>935f4c9fdb50230020759235ca961926</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>58890c97db50230020759235ca961988</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>d75f4c9fdb50230020759235ca961926</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>1</value>
         <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca961988</document_key>
+        <document_key>935f4c9fdb50230020759235ca961926</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>175f4c9fdb50230020759235ca961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value/>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>935f4c9fdb50230020759235ca961926</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>d35f4c9fdb50230020759235ca961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>935f4c9fdb50230020759235ca961926</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>5f5f4c9fdb50230020759235ca961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <value>Bachelorarbeit leider nicht bestanden</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>935f4c9fdb50230020759235ca961926</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>90890c97db50230020759235ca961989</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>135f4c9fdb50230020759235ca961927</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>Hallo ${u_student.first_name},&#13;
 &#13;
 leider hast du deine Bachelorarbeit nicht bestanden.&#13;
@@ -1769,124 +1567,35 @@ Dein Team von CampusNow</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca961988</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>94890c97db50230020759235ca961988</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca961988</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>dc890c97db50230020759235ca961988</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>Bachelorarbeit leider nicht bestanden</value>
-        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca961988</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>94890c97db50230020759235ca961988</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca961988</document_key>
-        <order>150</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>54890c97db50230020759235ca961989</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca961988</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>dc890c97db50230020759235ca961988</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>Bachelorarbeit leider nicht bestanden</value>
-        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca961988</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>90890c97db50230020759235ca961989</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>Hallo ${u_student.first_name},&#13;
-&#13;
-leider hast du deine Bachelorarbeit nicht bestanden.&#13;
-&#13;
-Viele Grüße&#13;
-Dein Team von CampusNow</value>
-        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca961988</document_key>
+        <document_key>935f4c9fdb50230020759235ca961926</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>58890c97db50230020759235ca961988</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>d75f4c9fdb50230020759235ca961926</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>1</value>
         <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca961988</document_key>
+        <document_key>935f4c9fdb50230020759235ca961926</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>1c890c97db50230020759235ca961988</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>9b5f4c9fdb50230020759235ca961926</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 answer = [current.u_student.sys_id];</value>
         <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Bacheorinfo versenden">90890c97db50230020759235ca961988</activity>
+        <activity display_value="Bacheorinfo versenden">935f4c9fdb50230020759235ca961926</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1900,11 +1609,11 @@ answer = [current.u_student.sys_id];</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>98890c97db50230020759235ca961989</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>1b5f4c9fdb50230020759235ca961927</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
@@ -1922,21 +1631,21 @@ answer = [current.u_student.sys_id];</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>9c890c97db50230020759235ca96198b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>d75f4c9fdb50230020759235ca96192a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 09:04:55</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Bachelorarbeit">9c890c97db50230020759235ca961986</workflow_version>
-        <x>20</x>
-        <y>20</y>
+        <workflow_version display_value="Bachelorarbeit">5f5f445bdb50230020759235ca961973</workflow_version>
+        <x>5</x>
+        <y>4</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=9c890c97db50230020759235ca96198b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d75f4c9fdb50230020759235ca96192a"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">9c890c97db50230020759235ca96198b</activity>
+        <activity display_value="Begin">d75f4c9fdb50230020759235ca96192a</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1950,11 +1659,11 @@ answer = [current.u_student.sys_id];</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>90890c97db50230020759235ca96198c</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>535f4c9fdb50230020759235ca96192b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
@@ -1972,30 +1681,30 @@ answer = [current.u_student.sys_id];</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>18890c97db50230020759235ca96198c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>175f445bdb50230020759235ca961978</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 09:05:32</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Bachelorarbeit">9c890c97db50230020759235ca961986</workflow_version>
-        <x>124</x>
-        <y>25</y>
+        <workflow_version display_value="Bachelorarbeit">5f5f445bdb50230020759235ca961973</workflow_version>
+        <x>51</x>
+        <y>134</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=18890c97db50230020759235ca96198c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=175f445bdb50230020759235ca961978"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>18890c97db50230020759235ca96198c</document_key>
+        <document_key>175f445bdb50230020759235ca961978</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>10890c97db50230020759235ca96198d</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>1f5f445bdb50230020759235ca961978</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
         <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
 //&#13;
 // For example,&#13;
@@ -2057,71 +1766,71 @@ if(credits &gt;= required_credits){&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>18890c97db50230020759235ca96198c</document_key>
+        <document_key>175f445bdb50230020759235ca961978</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>5c890c97db50230020759235ca96198c</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>5b5f445bdb50230020759235ca961978</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
         <value>1</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>18890c97db50230020759235ca96198c</document_key>
+        <document_key>175f445bdb50230020759235ca961978</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>98890c97db50230020759235ca96198c</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>975f445bdb50230020759235ca961978</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
         <value/>
         <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>18890c97db50230020759235ca96198c</document_key>
+        <document_key>175f445bdb50230020759235ca961978</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>98890c97db50230020759235ca96198c</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>975f445bdb50230020759235ca961978</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
         <value/>
         <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>18890c97db50230020759235ca96198c</document_key>
+        <document_key>175f445bdb50230020759235ca961978</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>5c890c97db50230020759235ca96198c</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>5b5f445bdb50230020759235ca961978</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
         <value>1</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>18890c97db50230020759235ca96198c</document_key>
+        <document_key>175f445bdb50230020759235ca961978</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>10890c97db50230020759235ca96198d</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>1f5f445bdb50230020759235ca961978</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
         <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
 //&#13;
 // For example,&#13;
@@ -2182,7 +1891,7 @@ if(credits &gt;= required_credits){&#13;
         <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Check Credits">18890c97db50230020759235ca96198c</activity>
+        <activity display_value="Check Credits">175f445bdb50230020759235ca961978</activity>
         <condition>activity.result == 'no'</condition>
         <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
         <condition_type>standard</condition_type>
@@ -2196,14 +1905,14 @@ if(credits &gt;= required_credits){&#13;
         <short_description/>
         <skip_during_generate>true</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>54890c97db50230020759235ca96198d</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>535f445bdb50230020759235ca961979</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Check Credits">18890c97db50230020759235ca96198c</activity>
+        <activity display_value="Check Credits">175f445bdb50230020759235ca961978</activity>
         <condition>activity.result == 'yes'</condition>
         <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
         <condition_type>standard</condition_type>
@@ -2217,11 +1926,11 @@ if(credits &gt;= required_credits){&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d4890c97db50230020759235ca96198d</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>d35f445bdb50230020759235ca961979</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -2239,19 +1948,19 @@ if(credits &gt;= required_credits){&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>54890c97db50230020759235ca96199a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>975f4c9fdb50230020759235ca961921</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 09:05:57</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Bachelorarbeit">9c890c97db50230020759235ca961986</workflow_version>
-        <x>660</x>
-        <y>501</y>
+        <workflow_version display_value="Bachelorarbeit">5f5f445bdb50230020759235ca961973</workflow_version>
+        <x>651</x>
+        <y>348</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=54890c97db50230020759235ca96199a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=975f4c9fdb50230020759235ca961921"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -2268,30 +1977,30 @@ if(credits &gt;= required_credits){&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>90890c97db50230020759235ca961993</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>9b5f4c9fdb50230020759235ca961929</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 09:05:47</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Bachelorarbeit">9c890c97db50230020759235ca961986</workflow_version>
-        <x>1180</x>
-        <y>60</y>
+        <workflow_version display_value="Bachelorarbeit">5f5f445bdb50230020759235ca961973</workflow_version>
+        <x>879</x>
+        <y>12</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=90890c97db50230020759235ca961993"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9b5f4c9fdb50230020759235ca961929"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca961993</document_key>
+        <document_key>9b5f4c9fdb50230020759235ca961929</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>14890c97db50230020759235ca961993</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>1f5f4c9fdb50230020759235ca961929</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>var gr = new GlideRecord('x_271560_campusnow_leistung');&#13;
 gr.initialize();&#13;
 gr.u_credits = 12;&#13;
@@ -2312,15 +2021,15 @@ current.u_kolloquium = k_ergebnis;&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca961993</document_key>
+        <document_key>9b5f4c9fdb50230020759235ca961929</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>14890c97db50230020759235ca961993</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>1f5f4c9fdb50230020759235ca961929</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
         <value>var gr = new GlideRecord('x_271560_campusnow_leistung');&#13;
 gr.initialize();&#13;
 gr.u_credits = 12;&#13;
@@ -2340,7 +2049,7 @@ current.u_kolloquium = k_ergebnis;&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Kolloquium erstellen">90890c97db50230020759235ca961993</activity>
+        <activity display_value="Kolloquium erstellen">9b5f4c9fdb50230020759235ca961929</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -2354,20 +2063,20 @@ current.u_kolloquium = k_ergebnis;&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>58890c97db50230020759235ca961993</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>535f4c9fdb50230020759235ca96192a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
-        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
-        <databus_lookup_id>13</databus_lookup_id>
+        <databus_lookup_id>10</databus_lookup_id>
         <height/>
         <input>{}</input>
         <is_parent>false</is_parent>
-        <name>Kolloquiuminfo versenden</name>
+        <name>Prüfe Bachelornote</name>
         <new_activity_definition/>
         <notes/>
         <out_of_date>false</out_of_date>
@@ -2376,201 +2085,262 @@ current.u_kolloquium = k_ergebnis;&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>90890c97db50230020759235ca96198a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>db5f445bdb50230020759235ca961975</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 09:05:43</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Bachelorarbeit">9c890c97db50230020759235ca961986</workflow_version>
-        <x>1023</x>
-        <y>293</y>
+        <workflow_version display_value="Bachelorarbeit">5f5f445bdb50230020759235ca961973</workflow_version>
+        <x>651</x>
+        <y>8</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=90890c97db50230020759235ca96198a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=db5f445bdb50230020759235ca961975"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca96198a</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>10890c97db50230020759235ca96198b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>Hallo  ${u_student.first_name},&#13;
-&#13;
-du hast deine Bachelorarbeit und dein Kolloquium ${u_kolloquium.u_state}.&#13;
-&#13;
-Viele Grüße&#13;
-Dein Team von CampusNow</value>
-        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca96198a</document_key>
+        <document_key>db5f445bdb50230020759235ca961975</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>14890c97db50230020759235ca96198a</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>175f445bdb50230020759235ca961976</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
+        <value>u_arbeit.u_state=2^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca96198a</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>5c890c97db50230020759235ca96198a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>Kolloquium wurde bewertet</value>
-        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca96198a</document_key>
-        <order>500</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>98890c97db50230020759235ca96198a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
-answer = [current.u_student.sys_id];</value>
-        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca96198a</document_key>
-        <order>150</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d0890c97db50230020759235ca96198b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca96198a</document_key>
-        <order>400</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d4890c97db50230020759235ca96198a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>1</value>
-        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca96198a</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>14890c97db50230020759235ca96198a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca96198a</document_key>
-        <order>150</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d0890c97db50230020759235ca96198b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value/>
-        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca96198a</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>5c890c97db50230020759235ca96198a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>Kolloquium wurde bewertet</value>
-        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca96198a</document_key>
+        <document_key>db5f445bdb50230020759235ca961975</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>10890c97db50230020759235ca96198b</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>535f445bdb50230020759235ca961977</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>Hallo  ${u_student.first_name},&#13;
-&#13;
-du hast deine Bachelorarbeit und dein Kolloquium ${u_kolloquium.u_state}.&#13;
-&#13;
-Viele Grüße&#13;
-Dein Team von CampusNow</value>
-        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca96198a</document_key>
-        <order>400</order>
+        <document_key>db5f445bdb50230020759235ca961975</document_key>
+        <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d4890c97db50230020759235ca96198a</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>9f5f445bdb50230020759235ca961976</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>1</value>
-        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>90890c97db50230020759235ca96198a</document_key>
-        <order>500</order>
+        <document_key>db5f445bdb50230020759235ca961975</document_key>
+        <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>98890c97db50230020759235ca96198a</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>175f445bdb50230020759235ca961976</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
-answer = [current.u_student.sys_id];</value>
-        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
+        <value>u_arbeit.u_state=2^EQ</value>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>db5f445bdb50230020759235ca961975</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>9f5f445bdb50230020759235ca961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>db5f445bdb50230020759235ca961975</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>535f445bdb50230020759235ca961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Kolloquiuminfo versenden">90890c97db50230020759235ca96198a</activity>
+        <activity display_value="Prüfe Bachelornote">db5f445bdb50230020759235ca961975</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>1b5f445bdb50230020759235ca961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Prüfe Bachelornote">db5f445bdb50230020759235ca961975</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>db5f445bdb50230020759235ca961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>9</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Warte auf Benotung</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>5b5f445bdb50230020759235ca961979</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 09:05:39</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Bachelorarbeit">5f5f445bdb50230020759235ca961973</workflow_version>
+        <x>508</x>
+        <y>131</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=5b5f445bdb50230020759235ca961979"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b5f445bdb50230020759235ca961979</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>935f445bdb50230020759235ca96197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
+        <value>u_arbeit.u_noteISNOTEMPTY^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b5f445bdb50230020759235ca961979</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>df5f445bdb50230020759235ca961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b5f445bdb50230020759235ca961979</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>935f445bdb50230020759235ca96197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
+        <value>u_arbeit.u_noteISNOTEMPTY^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5b5f445bdb50230020759235ca961979</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>df5f445bdb50230020759235ca961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Warte auf Benotung">5b5f445bdb50230020759235ca961979</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -2584,179 +2354,168 @@ answer = [current.u_student.sys_id];</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>18890c97db50230020759235ca96198b</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>5b5f445bdb50230020759235ca96197a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">dc890c97db50230020759235ca961990</condition>
-        <from display_value="Absage erteilen">58890c97db50230020759235ca96198f</from>
+        <condition display_value="Always">5b5f445bdb50230020759235ca96197a</condition>
+        <from display_value="Warte auf Benotung">5b5f445bdb50230020759235ca961979</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>10890c97db50230020759235ca96199d</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>135f4c9fdb50230020759235ca961932</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <to display_value="End">54890c97db50230020759235ca96199a</to>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <to display_value="Prüfe Bachelornote">db5f445bdb50230020759235ca961975</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">90890c97db50230020759235ca96198c</condition>
-        <from display_value="Begin">9c890c97db50230020759235ca96198b</from>
+        <condition display_value="Always">135f4c9fdb50230020759235ca961924</condition>
+        <from display_value="Absage erteilen">175f4c9fdb50230020759235ca961922</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>14890c97db50230020759235ca96199c</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>175f4c9fdb50230020759235ca961932</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <to display_value="Check Credits">18890c97db50230020759235ca96198c</to>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <to display_value="End">975f4c9fdb50230020759235ca961921</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">d0890c97db50230020759235ca96198f</condition>
-        <from display_value="Absage erteilen">5c890c97db50230020759235ca96198d</from>
+        <condition display_value="Always">1f5f4c9fdb50230020759235ca961925</condition>
+        <from display_value="Absage erteilen">975f4c9fdb50230020759235ca961924</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>18890c97db50230020759235ca96199b</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>175f4c9fdb50230020759235ca961933</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <to display_value="End">54890c97db50230020759235ca96199a</to>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <to display_value="End">975f4c9fdb50230020759235ca961921</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Yes">d4890c97db50230020759235ca96198d</condition>
-        <from display_value="Check Credits">18890c97db50230020759235ca96198c</from>
+        <condition display_value="No">535f445bdb50230020759235ca961979</condition>
+        <from display_value="Check Credits">175f445bdb50230020759235ca961978</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>18890c97db50230020759235ca96199d</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>1f5f4c9fdb50230020759235ca961932</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <to display_value="Bachelorarbeit akzeptieren">dc890c97db50230020759235ca961993</to>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <to display_value="Absage erteilen">175f4c9fdb50230020759235ca961922</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">18890c97db50230020759235ca96198b</condition>
-        <from display_value="Kolloquiuminfo versenden">90890c97db50230020759235ca96198a</from>
+        <condition display_value="Always">535f4c9fdb50230020759235ca96192a</condition>
+        <from display_value="Kolloquium erstellen">9b5f4c9fdb50230020759235ca961929</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>50890c97db50230020759235ca96199c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>1f5f4c9fdb50230020759235ca961933</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <to display_value="End">54890c97db50230020759235ca96199a</to>
+        <sys_updated_on>2018-09-07 09:03:05</sys_updated_on>
+        <to display_value="End">975f4c9fdb50230020759235ca961921</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="No">5c890c97db50230020759235ca961999</condition>
-        <from display_value="">10890c97db50230020759235ca961999</from>
+        <condition display_value="Rejected">975f4c9fdb50230020759235ca961930</condition>
+        <from display_value="Bachelorarbeit akzeptieren">d75f4c9fdb50230020759235ca96192b</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>58890c97db50230020759235ca96199c</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>535f4c9fdb50230020759235ca961933</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <to display_value="Bacheorinfo versenden">90890c97db50230020759235ca961988</to>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <to display_value="Absage erteilen">975f4c9fdb50230020759235ca961924</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">98890c97db50230020759235ca961989</condition>
-        <from display_value="Bacheorinfo versenden">90890c97db50230020759235ca961988</from>
+        <condition display_value="Always">135f4c9fdb50230020759235ca961921</condition>
+        <from display_value="Bachelorarbeit Leistung und Ergebnis erstellen">df5f445bdb50230020759235ca96197a</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>5c890c97db50230020759235ca96199c</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>5b5f4c9fdb50230020759235ca961931</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <to display_value="End">54890c97db50230020759235ca96199a</to>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <to display_value="Warte auf Benotung">5b5f445bdb50230020759235ca961979</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Approved">98890c97db50230020759235ca961998</condition>
-        <from display_value="Bachelorarbeit akzeptieren">dc890c97db50230020759235ca961993</from>
+        <condition display_value="Yes">db5f445bdb50230020759235ca961977</condition>
+        <from display_value="Prüfe Bachelornote">db5f445bdb50230020759235ca961975</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>5c890c97db50230020759235ca96199d</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>5b5f4c9fdb50230020759235ca961933</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <to display_value="Bachelorarbeit Leistung und Ergebnis erstellen">54890c97db50230020759235ca961992</to>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <to display_value="Kolloquium erstellen">9b5f4c9fdb50230020759235ca961929</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="No">54890c97db50230020759235ca96198d</condition>
-        <from display_value="Check Credits">18890c97db50230020759235ca96198c</from>
+        <condition display_value="Always">535f4c9fdb50230020759235ca96192b</condition>
+        <from display_value="Begin">d75f4c9fdb50230020759235ca96192a</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>94890c97db50230020759235ca96199d</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>5f5f4c9fdb50230020759235ca961931</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <to display_value="Absage erteilen">58890c97db50230020759235ca96198f</to>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <to display_value="Check Credits">175f445bdb50230020759235ca961978</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">1c890c97db50230020759235ca961992</condition>
-        <from display_value="Bachelorarbeit Leistung und Ergebnis erstellen">54890c97db50230020759235ca961992</from>
+        <condition display_value="Yes">d35f445bdb50230020759235ca961979</condition>
+        <from display_value="Check Credits">175f445bdb50230020759235ca961978</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>9c890c97db50230020759235ca96199b</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>9b5f4c9fdb50230020759235ca961932</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <to display_value="">54890c97db50230020759235ca961991</to>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <to display_value="Bachelorarbeit akzeptieren">d75f4c9fdb50230020759235ca96192b</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">58890c97db50230020759235ca961993</condition>
-        <from display_value="Kolloquium erstellen">90890c97db50230020759235ca961993</from>
+        <condition display_value="Always">1b5f4c9fdb50230020759235ca961927</condition>
+        <from display_value="Bacheorinfo versenden">935f4c9fdb50230020759235ca961926</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d0890c97db50230020759235ca96199d</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>d75f4c9fdb50230020759235ca961932</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <to display_value="Kolloquiuminfo versenden">90890c97db50230020759235ca96198a</to>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <to display_value="End">975f4c9fdb50230020759235ca961921</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Yes">dc890c97db50230020759235ca961999</condition>
-        <from display_value="">10890c97db50230020759235ca961999</from>
+        <condition display_value="No">1b5f445bdb50230020759235ca961977</condition>
+        <from display_value="Prüfe Bachelornote">db5f445bdb50230020759235ca961975</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d4890c97db50230020759235ca96199c</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>d75f4c9fdb50230020759235ca961933</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <to display_value="Kolloquium erstellen">90890c97db50230020759235ca961993</to>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <to display_value="Bacheorinfo versenden">935f4c9fdb50230020759235ca961926</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">dc890c97db50230020759235ca961991</condition>
-        <from display_value="">54890c97db50230020759235ca961991</from>
+        <condition display_value="Approved">1b5f4c9fdb50230020759235ca961930</condition>
+        <from display_value="Bachelorarbeit akzeptieren">d75f4c9fdb50230020759235ca96192b</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d8890c97db50230020759235ca96199b</sys_id>
+        <sys_created_on>2018-09-07 08:19:14</sys_created_on>
+        <sys_id>df5f4c9fdb50230020759235ca961932</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <to display_value="">10890c97db50230020759235ca961999</to>
-    </wf_transition>
-    <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Rejected">18890c97db50230020759235ca961998</condition>
-        <from display_value="Bachelorarbeit akzeptieren">dc890c97db50230020759235ca961993</from>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>d8890c97db50230020759235ca96199d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <to display_value="Absage erteilen">5c890c97db50230020759235ca96198d</to>
+        <sys_updated_on>2018-09-07 08:19:14</sys_updated_on>
+        <to display_value="Bachelorarbeit Leistung und Ergebnis erstellen">df5f445bdb50230020759235ca96197a</to>
     </wf_transition>
     <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-07 07:53:37</sys_created_on>
-        <sys_id>10890c97db50230020759235ca961987</sys_id>
+        <sys_created_on>2018-09-07 08:19:13</sys_created_on>
+        <sys_id>135f445bdb50230020759235ca961974</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 07:53:37</sys_updated_on>
-        <workflow_version display_value="Bachelorarbeit">9c890c97db50230020759235ca961986</workflow_version>
+        <sys_updated_on>2018-09-07 08:19:13</sys_updated_on>
+        <workflow_version display_value="Bachelorarbeit">5f5f445bdb50230020759235ca961973</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=8eb19187db58230020759235ca9619ed^sys_id!=9c890c97db50230020759235ca961986">
+    <wf_workflow_version action="update_multiple" query="workflow=8eb19187db58230020759235ca9619ed^sys_id!=5f5f445bdb50230020759235ca961973">
         <published>false</published>
     </wf_workflow_version>
 </record_update>
