@@ -32,12 +32,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-07 08:19:13</sys_created_on>
         <sys_id>5f5f445bdb50230020759235ca961973</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-07 09:07:01</sys_updated_on>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>janae</sys_updated_by>
+        <sys_updated_on>2018-09-07 11:01:10</sys_updated_on>
         <table>x_271560_campusnow_bachelorarbeit</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Bachelorarbeit">8eb19187db58230020759235ca9619ed</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
